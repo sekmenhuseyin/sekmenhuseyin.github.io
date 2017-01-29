@@ -1,0 +1,429 @@
+
+
+
+
+
+<!DOCTYPE html>
+<!--[if IE 9]><html class="no-js ie9" lang="tr-TR" prefix="og: http://ogp.me/ns#"><![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js" lang="tr-TR" prefix="og: http://ogp.me/ns#"><!--<![endif]-->
+
+<head>
+  
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Access&#039;den MSSQL&#039;e veritabanı dönüştürme işlemleri - Hüseyin Sekmenoğlu | Çözebildiğim Sorunlar</title>
+<link rel="pingback" href="http://huseyinsekmenoglu.net/xmlrpc.php"><link rel="shortcut icon" href="../favicon.ico" tppabs="http://huseyinsekmenoglu.net/favicon.ico">
+<!-- This site is optimized with the Yoast SEO plugin v3.9 - https://yoast.com/wordpress/plugins/seo/ -->
+<link rel="canonical" href="http://huseyinsekmenoglu.net/2012/accessden-mssqle-veritabani-donusturme-islemleri.html" />
+<meta property="og:locale" content="tr_TR" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Access&#039;den MSSQL&#039;e veritabanı dönüştürme işlemleri - Hüseyin Sekmenoğlu | Çözebildiğim Sorunlar" />
+<meta property="og:description" content="Şu anda her okulun ayrı bir sunucusu, IP&#8217;si ve otomasyon programı var. Dolayısıyla bir değişiklik gerektiğinde her okulun programına bağlanıp tek tek düzeltmek gerekiyor. İlk başlarda bunun kolay yolunu bulduğumu zannediyordum. Tek bir okulun programını düzelteceğim sonra bunu diğer okullara kopyalayacaktım ama sonra okullardan istek ve hata bildirimleri gelmeye başlayınca ipin ucu kaçtı. Ben de yeni sistem üzerine yoğunlaşmaya karar ..." />
+<meta property="og:url" content="http://huseyinsekmenoglu.net/2012/accessden-mssqle-veritabani-donusturme-islemleri.html" />
+<meta property="og:site_name" content="Hüseyin Sekmenoğlu | Çözebildiğim Sorunlar" />
+<meta property="article:tag" content="access" />
+<meta property="article:tag" content="çözüm" />
+<meta property="article:tag" content="eğitim" />
+<meta property="article:tag" content="mssql" />
+<meta property="article:tag" content="teknoloji" />
+<meta property="article:section" content="çözüm" />
+<meta property="article:published_time" content="2012-10-31T07:43:52+00:00" />
+<meta property="article:modified_time" content="2014-03-31T09:25:59+00:00" />
+<meta property="og:updated_time" content="2014-03-31T09:25:59+00:00" />
+<meta property="og:image" content="http://huseyinsekmenoglu.net/wp-content/uploads/Access-to-SQL.png" />
+<meta property="og:image:width" content="884" />
+<meta property="og:image:height" content="555" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="Şu anda her okulun ayrı bir sunucusu, IP&#8217;si ve otomasyon programı var. Dolayısıyla bir değişiklik gerektiğinde her okulun programına bağlanıp tek tek düzeltmek gerekiyor. İlk başlarda bunun kolay yolunu bulduğumu zannediyordum. Tek bir okulun programını düzelteceğim sonra bunu diğer okullara kopyalayacaktım ama sonra okullardan istek ve hata bildirimleri gelmeye başlayınca ipin ucu kaçtı. Ben de yeni sistem üzerine yoğunlaşmaya karar ..." />
+<meta name="twitter:title" content="Access&#039;den MSSQL&#039;e veritabanı dönüştürme işlemleri - Hüseyin Sekmenoğlu | Çözebildiğim Sorunlar" />
+<meta name="twitter:image" content="http://huseyinsekmenoglu.net/wp-content/uploads/Access-to-SQL.png" />
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Hüseyin Sekmenoğlu | Çözebildiğim Sorunlar &raquo; beslemesi" href="http://huseyinsekmenoglu.net/feed" />
+<link rel="alternate" type="application/rss+xml" title="Hüseyin Sekmenoğlu | Çözebildiğim Sorunlar &raquo; yorum beslemesi" href="http://huseyinsekmenoglu.net/comments/feed" />
+<link rel="alternate" type="application/rss+xml" title="Hüseyin Sekmenoğlu | Çözebildiğim Sorunlar &raquo; Access&#8217;den MSSQL&#8217;e veritabanı dönüştürme işlemleri yorum beslemesi" href="http://huseyinsekmenoglu.net/2012/accessden-mssqle-veritabani-donusturme-islemleri.html/feed" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/huseyinsekmenoglu.net\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.7.2"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='x-stack-css'  href="../wp-content/themes/x/framework/css/dist/site/stacks/ethos.css-ver=4.6.4.css" tppabs="http://huseyinsekmenoglu.net/wp-content/themes/x/framework/css/dist/site/stacks/ethos.css?ver=4.6.4" type='text/css' media='all' />
+<link rel='stylesheet' id='x-google-fonts-css'  href="../../fonts.googleapis.com/css-family=Lato-400,400italic,700,700italic&subset=latin,latin-ext&ver=4.6.4.css" tppabs="http://fonts.googleapis.com/css?family=Lato%3A400%2C400italic%2C700%2C700italic&subset=latin%2Clatin-ext&ver=4.6.4" type='text/css' media='all' />
+<link rel='stylesheet' id='x-fa-icon-classes-css'  href="../wp-content/plugins/cornerstone/assets/dist/css/site/fa-icon-classes.css-ver=1.3.3.css" tppabs="http://huseyinsekmenoglu.net/wp-content/plugins/cornerstone/assets/dist/css/site/fa-icon-classes.css?ver=1.3.3" type='text/css' media='all' />
+<link rel='https://api.w.org/' href='http://huseyinsekmenoglu.net/wp-json/' />
+<link rel='shortlink' href='http://huseyinsekmenoglu.net/?p=187' />
+<link rel="alternate" type="application/json+oembed" href="http://huseyinsekmenoglu.net/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fhuseyinsekmenoglu.net%2F2012%2Faccessden-mssqle-veritabani-donusturme-islemleri.html" />
+<link rel="alternate" type="text/xml+oembed" href="http://huseyinsekmenoglu.net/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fhuseyinsekmenoglu.net%2F2012%2Faccessden-mssqle-veritabani-donusturme-islemleri.html&#038;format=xml" />
+<script type='text/javascript' src="../wp-includes/js/jquery/jquery.js-ver=1.12.4.js" tppabs="http://huseyinsekmenoglu.net/wp-includes/js/jquery/jquery.js?ver=1.12.4"></script>
+<script type='text/javascript' src="../wp-includes/js/jquery/jquery-migrate.min.js-ver=1.4.1.js" tppabs="http://huseyinsekmenoglu.net/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1"></script>
+<style type="text/css" id="syntaxhighlighteranchor"></style>
+<style id="x-generated-css" type="text/css">a,h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover,h5 a:hover,h6 a:hover,.x-breadcrumb-wrap a:hover,.x-comment-author a:hover,.x-comment-time:hover,.p-meta > span > a:hover,.format-link .link a:hover,.x-main .widget ul li a:hover,.x-main .widget ol li a:hover,.x-main .widget_tag_cloud .tagcloud a:hover,.x-sidebar .widget ul li a:hover,.x-sidebar .widget ol li a:hover,.x-sidebar .widget_tag_cloud .tagcloud a:hover,.x-portfolio .entry-extra .x-ul-tags li a:hover{color:#ff2a13;}a:hover{color:#d80f0f;}a.x-img-thumbnail:hover{border-color:#ff2a13;}.x-main{width:72%;}.x-sidebar{width:28%;}.x-post-slider-archive-active .x-container.main:before{top:0;}.x-content-sidebar-active .x-container.main:before{right:28%;}.x-sidebar-content-active .x-container.main:before{left:28%;}.x-full-width-active .x-container.main:before{left:-5000em;}.x-navbar .desktop .x-nav > li > a,.x-navbar .desktop .sub-menu a,.x-navbar .mobile .x-nav li > a,.x-breadcrumb-wrap a,.x-breadcrumbs .delimiter{color:#999999;}.x-topbar .p-info a:hover,.x-social-global a:hover,.x-navbar .desktop .x-nav > li > a:hover,.x-navbar .desktop .x-nav > .x-active > a,.x-navbar .desktop .x-nav > .current-menu-item > a,.x-navbar .desktop .sub-menu a:hover,.x-navbar .desktop .sub-menu .x-active > a,.x-navbar .desktop .sub-menu .current-menu-item > a,.x-navbar .desktop .x-nav .x-megamenu > .sub-menu > li > a,.x-navbar .mobile .x-nav li > a:hover,.x-navbar .mobile .x-nav .x-active > a,.x-navbar .mobile .x-nav .current-menu-item > a,.x-widgetbar .widget a:hover,.x-colophon .widget a:hover,.x-colophon.bottom .x-colophon-content a:hover,.x-colophon.bottom .x-nav a:hover{color:#ffffff;}.x-navbar .desktop .x-nav > li > a:hover,.x-navbar .desktop .x-nav > .x-active > a,.x-navbar .desktop .x-nav > .current-menu-item > a{box-shadow:0 2px 0 0 #ff2a13;}.x-navbar .desktop .x-nav > li > a{height:90px;padding-top:37px;}.x-navbar .desktop .x-nav > li ul{top:92px;}.h-landmark,.x-main .h-widget,.x-main .h-widget a.rsswidget,.x-main .h-widget a.rsswidget:hover,.x-main .widget.widget_pages .current_page_item a,.x-main .widget.widget_nav_menu .current-menu-item a,.x-main .widget.widget_pages .current_page_item a:hover,.x-main .widget.widget_nav_menu .current-menu-item a:hover,.x-sidebar .h-widget,.x-sidebar .h-widget a.rsswidget,.x-sidebar .h-widget a.rsswidget:hover,.x-sidebar .widget.widget_pages .current_page_item a,.x-sidebar .widget.widget_nav_menu .current-menu-item a,.x-sidebar .widget.widget_pages .current_page_item a:hover,.x-sidebar .widget.widget_nav_menu .current-menu-item a:hover{color:#333333;}.x-main .widget,.x-main .widget a,.x-main .widget ul li a,.x-main .widget ol li a,.x-main .widget_tag_cloud .tagcloud a,.x-main .widget_product_tag_cloud .tagcloud a,.x-main .widget a:hover,.x-main .widget ul li a:hover,.x-main .widget ol li a:hover,.x-main .widget_tag_cloud .tagcloud a:hover,.x-main .widget_product_tag_cloud .tagcloud a:hover,.x-main .widget_shopping_cart .buttons .button,.x-main .widget_price_filter .price_slider_amount .button,.x-sidebar .widget,.x-sidebar .widget a,.x-sidebar .widget ul li a,.x-sidebar .widget ol li a,.x-sidebar .widget_tag_cloud .tagcloud a,.x-sidebar .widget_product_tag_cloud .tagcloud a,.x-sidebar .widget a:hover,.x-sidebar .widget ul li a:hover,.x-sidebar .widget ol li a:hover,.x-sidebar .widget_tag_cloud .tagcloud a:hover,.x-sidebar .widget_product_tag_cloud .tagcloud a:hover,.x-sidebar .widget_shopping_cart .buttons .button,.x-sidebar .widget_price_filter .price_slider_amount .button{color:#333333;}.x-main .h-widget,.x-main .widget.widget_pages .current_page_item,.x-main .widget.widget_nav_menu .current-menu-item,.x-sidebar .h-widget,.x-sidebar .widget.widget_pages .current_page_item,.x-sidebar .widget.widget_nav_menu .current-menu-item{border-color:#333333;}.x-topbar,.x-colophon.bottom{background-color:#222222;}.x-logobar,.x-navbar,.x-navbar .sub-menu,.x-colophon.top{background-color:#333333;}.x-post-slider{height:425px;}.archive .x-post-slider{height:425px;}.x-post-slider .x-post-slider-entry{padding-bottom:425px;}.archive .x-post-slider .x-post-slider-entry{padding-bottom:425px;}.format-link .link a,.x-portfolio .entry-extra .x-ul-tags li a{color:#7a7a7a;}.p-meta > span > a,.x-nav-articles a,.entry-top-navigation .entry-parent,.option-set .x-index-filters,.option-set .x-portfolio-filters,.option-set .x-index-filters-menu >li >a:hover,.option-set .x-index-filters-menu >li >a.selected,.option-set .x-portfolio-filters-menu > li > a:hover,.option-set .x-portfolio-filters-menu > li > a.selected{color:#333333;}.x-nav-articles a,.entry-top-navigation .entry-parent,.option-set .x-index-filters,.option-set .x-portfolio-filters,.option-set .x-index-filters i,.option-set .x-portfolio-filters i{border-color:#333333;}.x-nav-articles a:hover,.entry-top-navigation .entry-parent:hover,.option-set .x-index-filters:hover i,.option-set .x-portfolio-filters:hover i{background-color:#333333;}@media (max-width:979px){.x-content-sidebar-active .x-container.main:before,.x-sidebar-content-active .x-container.main:before{left:-5000em;}body .x-main .widget,body .x-main .widget a,body .x-main .widget a:hover,body .x-main .widget ul li a,body .x-main .widget ol li a,body .x-main .widget ul li a:hover,body .x-main .widget ol li a:hover,body .x-sidebar .widget,body .x-sidebar .widget a,body .x-sidebar .widget a:hover,body .x-sidebar .widget ul li a,body .x-sidebar .widget ol li a,body .x-sidebar .widget ul li a:hover,body .x-sidebar .widget ol li a:hover{color:#7a7a7a;}body .x-main .h-widget,body .x-main .widget.widget_pages .current_page_item a,body .x-main .widget.widget_nav_menu .current-menu-item a,body .x-main .widget.widget_pages .current_page_item a:hover,body .x-main .widget.widget_nav_menu .current-menu-item a:hover,body .x-sidebar .h-widget,body .x-sidebar .widget.widget_pages .current_page_item a,body .x-sidebar .widget.widget_nav_menu .current-menu-item a,body .x-sidebar .widget.widget_pages .current_page_item a:hover,body .x-sidebar .widget.widget_nav_menu .current-menu-item a:hover{color:#333333;}body .x-main .h-widget,body .x-main .widget.widget_pages .current_page_item,body .x-main .widget.widget_nav_menu .current-menu-item,body .x-sidebar .h-widget,body .x-sidebar .widget.widget_pages .current_page_item,body .x-sidebar .widget.widget_nav_menu .current-menu-item{border-color:#333333;}}@media (max-width:767px){.x-post-slider,.archive .x-post-slider{height:auto !important;}.x-post-slider .x-post-slider-entry,.archive .x-post-slider .x-post-slider-entry{padding-bottom:65% !important;}}body{font-size:14px;font-style:normal;font-weight:400;color:#7a7a7a;background-color:#f3f3f3;}a:focus,select:focus,input[type="file"]:focus,input[type="radio"]:focus,input[type="submit"]:focus,input[type="checkbox"]:focus{outline:thin dotted #333;outline:5px auto #ff2a13;outline-offset:-1px;}h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{font-family:"Lato",sans-serif;font-style:normal;font-weight:700;}h1,.h1{letter-spacing:0.018em;}h2,.h2{letter-spacing:0.025em;}h3,.h3{letter-spacing:0.031em;}h4,.h4{letter-spacing:0.042em;}h5,.h5{letter-spacing:0.048em;}h6,.h6{letter-spacing:0.071em;}.w-h{font-weight:700 !important;}.x-container.width{width:88%;}.x-container.max{max-width:1200px;}.x-main.full{float:none;display:block;width:auto;}@media (max-width:979px){.x-main.full,.x-main.left,.x-main.right,.x-sidebar.left,.x-sidebar.right{float:none;display:block;width:auto !important;}}.entry-header,.entry-content{font-size:14px;}body,input,button,select,textarea{font-family:"Lato",sans-serif;}h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6,h1 a,h2 a,h3 a,h4 a,h5 a,h6 a,.h1 a,.h2 a,.h3 a,.h4 a,.h5 a,.h6 a,blockquote{color:#333333;}.cfc-h-tx{color:#333333 !important;}.cfc-h-bd{border-color:#333333 !important;}.cfc-h-bg{background-color:#333333 !important;}.cfc-b-tx{color:#7a7a7a !important;}.cfc-b-bd{border-color:#7a7a7a !important;}.cfc-b-bg{background-color:#7a7a7a !important;}.x-btn-widgetbar{border-top-color:#000000;border-right-color:#000000;}.x-btn-widgetbar:hover{border-top-color:#444444;border-right-color:#444444;}.x-navbar-inner{min-height:90px;}.x-brand{margin-top:22px;font-family:"Lato",sans-serif;font-size:42px;font-style:normal;font-weight:700;letter-spacing:0.019em;color:#ffffff;}.x-brand:hover,.x-brand:focus{color:#ffffff;}.x-navbar .x-nav-wrap .x-nav > li > a{font-family:"Lato",sans-serif;font-style:normal;font-weight:700;letter-spacing:0.083em;text-transform:uppercase;}.x-navbar .desktop .x-nav > li > a{font-size:13px;}.x-navbar .desktop .x-nav > li > a:not(.x-btn-navbar-woocommerce){padding-left:20px;padding-right:20px;}.x-navbar .desktop .x-nav > li > a > span{margin-right:-0.083em;}.x-btn-navbar{margin-top:20px;}.x-btn-navbar,.x-btn-navbar.collapsed{font-size:24px;}@media (max-width:979px){.x-widgetbar{left:0;right:0;}}.x-btn,.button,[type="submit"]{color:#ffffff;border-color:#ac1100;background-color:#ff2a13;margin-bottom:0.25em;text-shadow:0 0.075em 0.075em rgba(0,0,0,0.5);box-shadow:0 0.25em 0 0 #a71000,0 4px 9px rgba(0,0,0,0.75);border-radius:0.25em;}.x-btn:hover,.button:hover,[type="submit"]:hover{color:#ffffff;border-color:#600900;background-color:#ef2201;margin-bottom:0.25em;text-shadow:0 0.075em 0.075em rgba(0,0,0,0.5);box-shadow:0 0.25em 0 0 #a71000,0 4px 9px rgba(0,0,0,0.75);}.x-btn.x-btn-real,.x-btn.x-btn-real:hover{margin-bottom:0.25em;text-shadow:0 0.075em 0.075em rgba(0,0,0,0.65);}.x-btn.x-btn-real{box-shadow:0 0.25em 0 0 #a71000,0 4px 9px rgba(0,0,0,0.75);}.x-btn.x-btn-real:hover{box-shadow:0 0.25em 0 0 #a71000,0 4px 9px rgba(0,0,0,0.75);}.x-btn.x-btn-flat,.x-btn.x-btn-flat:hover{margin-bottom:0;text-shadow:0 0.075em 0.075em rgba(0,0,0,0.65);box-shadow:none;}.x-btn.x-btn-transparent,.x-btn.x-btn-transparent:hover{margin-bottom:0;border-width:3px;text-shadow:none;text-transform:uppercase;background-color:transparent;box-shadow:none;}</style></head>
+
+<body class="post-template-default single single-post postid-187 single-format-standard x-ethos x-navbar-static-active x-full-width-layout-active x-content-sidebar-active x-post-meta-disabled x-v4_6_4 cornerstone-v1_3_3">
+
+  
+  <div id="top" class="site">
+
+  
+  
+  <header class="masthead masthead-inline" role="banner">
+    
+    
+    
+
+  <div class="x-navbar-wrap">
+    <div class="x-navbar">
+      <div class="x-navbar-inner">
+        <div class="x-container max width">
+          
+<h1 class="visually-hidden">Hüseyin Sekmenoğlu | Çözebildiğim Sorunlar</h1>
+<a href="../index.htm" tppabs="http://huseyinsekmenoglu.net/" class="x-brand text" title="Hüseyin Sekmenoğlu, bir BLOG yazarı ve programcı, bir bilgisayarcı ve tasarımcının çözdüğü sorunlarla ilgili yazıları">
+  Hüseyin Sekmenoğlu | Çözebildiğim Sorunlar</a>           
+<a href="#" class="x-btn-navbar collapsed" data-toggle="collapse" data-target=".x-nav-wrap.mobile">
+  <i class="x-icon-bars" data-x-icon="&#xf0c9;"></i>
+  <span class="visually-hidden">Navigation</span>
+</a>
+
+<nav class="x-nav-wrap desktop" role="navigation">
+  <ul id="menu-ust" class="x-nav"><li id="menu-item-19" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-19"><a href="javascript:if(confirm(%27https://huseyinsekmenoglu.net/  \n\nThis file was not retrieved by Teleport Pro, because it is addressed using an unsupported protocol (e.g., gopher).  \n\nDo you want to open it from the server?%27))window.location=%27https://huseyinsekmenoglu.net/%27" tppabs="https://huseyinsekmenoglu.net/"><span>BLOG</span></a></li>
+<li id="menu-item-17" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17"><a href="../arsiv.htm" tppabs="http://huseyinsekmenoglu.net/arsiv"><span>Arşiv</span></a></li>
+<li id="menu-item-493" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-493"><a href="../iletisim.htm" tppabs="http://huseyinsekmenoglu.net/iletisim"><span>İletişim</span></a></li>
+<li class="menu-item x-menu-item x-menu-item-search"><a href="#" class="x-btn-navbar-search"><span><i class="x-icon-search" data-x-icon="&#xf002;" aria-hidden="true"></i><span class="x-hidden-desktop"> Search</span></span></a></li></ul></nav>
+
+<div class="x-nav-wrap mobile collapse">
+  <ul id="menu-ust-1" class="x-nav"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-19"><a href="javascript:if(confirm(%27https://huseyinsekmenoglu.net/  \n\nThis file was not retrieved by Teleport Pro, because it is addressed using an unsupported protocol (e.g., gopher).  \n\nDo you want to open it from the server?%27))window.location=%27https://huseyinsekmenoglu.net/%27" tppabs="https://huseyinsekmenoglu.net/"><span>BLOG</span></a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17"><a href="../arsiv.htm" tppabs="http://huseyinsekmenoglu.net/arsiv"><span>Arşiv</span></a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-493"><a href="../iletisim.htm" tppabs="http://huseyinsekmenoglu.net/iletisim"><span>İletişim</span></a></li>
+<li class="menu-item x-menu-item x-menu-item-search"><a href="#" class="x-btn-navbar-search"><span><i class="x-icon-search" data-x-icon="&#xf002;" aria-hidden="true"></i><span class="x-hidden-desktop"> Search</span></span></a></li></ul></div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+    
+  
+    <div class="x-breadcrumb-wrap">
+      <div class="x-container max width">
+        <div class="x-breadcrumbs"><a href="../index.htm" tppabs="http://huseyinsekmenoglu.net/"><span class="home"><i class="x-icon-home" data-x-icon="&#xf015;"></i></span></a> <span class="delimiter"><i class="x-icon-angle-right" data-x-icon="&#xf105;"></i></span> <span class="current">Access&#8217;den MSSQL&#8217;e veritabanı dönüştürme işlemleri</span></div>      </div>
+    </div>
+
+    </header>
+
+    
+  
+    
+    
+  <div class="x-container max width main">
+    <div class="offset cf">
+      <div class="x-main left" role="main">
+
+                  
+<article id="post-187" class="post-187 post type-post status-publish format-standard has-post-thumbnail hentry category-cozum category-teknoloji tag-access tag-cozum tag-egitim tag-mssql tag-teknoloji_2">
+            <div class="entry-featured">
+                  <div class="entry-thumb"><img width="864" height="542" src="../wp-content/uploads/Access-to-SQL.png" tppabs="http://huseyinsekmenoglu.net/wp-content/uploads/Access-to-SQL.png" class="attachment-entry size-entry wp-post-image" alt="Access to SQL" /></div>              </div>
+        <div class="entry-wrap">
+      
+<header class="entry-header">
+      
+  <div class="x-nav-articles">
+
+          <a href="balikesirin-buyuksehir-olmasi-serefine.html" tppabs="http://huseyinsekmenoglu.net/2012/balikesirin-buyuksehir-olmasi-serefine.html" title="" class="prev">
+        <i class="x-icon-chevron-left" data-x-icon="&#xf053;"></i>      </a>
+    
+          <a href="bir-cv-nasil-hazirlanir.html" tppabs="http://huseyinsekmenoglu.net/2012/bir-cv-nasil-hazirlanir.html" title="" class="next">
+        <i class="x-icon-chevron-right" data-x-icon="&#xf054;"></i>      </a>
+    
+  </div>
+
+      <h1 class="entry-title">Access&#8217;den MSSQL&#8217;e veritabanı dönüştürme işlemleri</h1>
+    </header>      
+
+
+<div class="entry-content content">
+
+
+  <div id="attachment_217" style="width: 310px" class="wp-caption alignright"><a href="accessden-mssqle-veritabani-donusturme-islemleri.html/gulistan-okul-otomasyon.htm" tppabs="http://huseyinsekmenoglu.net/2012/accessden-mssqle-veritabani-donusturme-islemleri.html/gulistan-okul-otomasyon" rel="attachment wp-att-333"><img class="aligncenter size-medium wp-image-333" alt="Gulistan-Okul-Otomasyon" src="../wp-content/uploads/Gulistan-Okul-Otomasyon-300x300.jpg" tppabs="http://huseyinsekmenoglu.net/wp-content/uploads/Gulistan-Okul-Otomasyon-300x300.jpg" width="300" height="300" /></a><p class="wp-caption-text">Gülistan Okul Otomasyon</p></div>
+<p>Şu anda her okulun ayrı bir sunucusu, IP&#8217;si ve otomasyon programı var. Dolayısıyla bir değişiklik gerektiğinde her okulun programına bağlanıp tek tek düzeltmek gerekiyor. İlk başlarda bunun kolay yolunu bulduğumu zannediyordum. Tek bir okulun programını düzelteceğim sonra bunu diğer okullara kopyalayacaktım ama sonra okullardan istek ve hata bildirimleri gelmeye başlayınca ipin ucu kaçtı. Ben de yeni sistem üzerine yoğunlaşmaya karar verdim.</p>
+<p>GOO (Gülistan Okul Otomasyonu) üzerinde fikirler yürütürken ilk önce tamamen İnternet üzerinden çalışan bir sistem hayal etmiştim. Bunun için de en güvenli sistem olan Linux sunucu üzerinde PHP ile hazırlanmış bir web sitesi düşünüyordum. Tam o zamanlarda okuyla kendi programlarını tanıtmak için bir şirket geldi. Programları bize uygun değildi ama yine de beynimde şimşeklerin çakmasına sebep olmuştu. Programları VB.Net ile hazırlanmıştı, ve ben de bu programı ve programlama dilini çok iyi biliyordum. Veritabanı sistemi olarak MSSQL kullanılmıştı. MSSQL bu sistemle birlikte çok güzel çalışıyordu ama en güzel yanı İnternetten çalıştırılabiliyor olmasıydı. Ben de ilk olarak veritabanını hazırlayarak başladım işe. Tüm okulların, genel müdürlüğün ve mezunların veritabanlarının bir kopyasını aldım. Onları ince eleyip sık dokuyarak ayrı bir Access veritabanında birleştirdim. Böylece tek bir veritabanında tüm okulların ihtiyacı olan veritabanı sistemini oluşturdum. Bunları tek bir merkezde toplayınca bazı tablolarda değişiklik gerekti. Mesela ayarlar tablosunda ilk sütunda ayarın ismi (&#8220;OkulAdı&#8221;) varken ikinci sütunda onun değeri (&#8220;Mehmet Akif College&#8221;) vardı. Şimdi yine ilk sütunda ayarın ismi var ama artık bunun yanında 6 ayrı sütün var. Her okul için ayrı bir sütun oluşturdum. Böylece tek bir  yerden tüm ayarları görüp düzeltme imkanım olacak. Diğer birkaç tabloda da buna benzer değişiklik yaptıktan sonra &#8220;Tamam&#8221; dedim ve MSSQL&#8217;e dönüştürme işlemine başladım.<span id="more-187"></span></p>
+<p>Veritabanı dönüştürme işlemini İnternetten birkaç program indirip denem yanılma yöntemiyle buldum. Şimdi adını bile hatırlamıyorum. Zaten çok da önemli değil. Önemli olan dönüştürme işleminden sonra tabloları tekrar gözden geçirmek, isimlendirmeyi düzgün ve mantıklı yapmak. Örnek verecek olursak; bize &#8220;Staff&#8221; diye bir tablo var personel bilgilerini tutmak için kullanılan. Personelin iletişim bilgileri &#8220;Staff_Contact&#8221;, çalışma ve oturum izni (Residence and Work Permit) bilgileri &#8220;Staff_Permits&#8221;, kullanıcı adı ve şifre bilgileri ise &#8220;Staff_Usernames&#8221; tablosuna yerleştirildi. Böylece personelle ilgili tüm bilgiler kolayca bulunup değiştirilebiliyor.</p>
+<p>İkinci önemli nokta ise veritabanındaki tabloların sütunların tipleri. Aşağıdakiler benim uzun uzun araştırmalarım neticesinde elde ettiğim püf noktaları 😀</p>
+<ul>
+<li>Yazı içeren sütunlar için &#8220;nvarchar&#8221; tipini kullanmak en doğru seçim. Her ne kadar maksimum boyut belirtmiş olsanız da içindeki bilgi kadar yer kaplıyor.</li>
+<li>Erkek-Kadın, Evli-Bekar gibi sütunlar için ben &#8220;bit&#8221; kullanıyorum, yani true-false. Daha az yer kaplıyor ve anlaması zor değil.</li>
+<li>Para birimi olan sütunlarda &#8220;smallmoney&#8221; en iyi yöntem. &#8220;money&#8221; de var ama o kadar büyük ki kim kullanır bilmiyorum, <strong>±</strong>214 milyondan fazla.</li>
+</ul>
+<h2>Dönüştürme İşlemi</h2>
+<div id="attachment_228" style="width: 310px" class="wp-caption alignright"><a href="accessden-mssqle-veritabani-donusturme-islemleri.html/access-to-sql.htm" tppabs="http://huseyinsekmenoglu.net/2012/accessden-mssqle-veritabani-donusturme-islemleri.html/access-to-sql" rel="attachment wp-att-228"><img class="size-medium wp-image-228" alt="Access to SQL" src="../wp-content/uploads/Access-to-SQL-300x188.png" tppabs="http://huseyinsekmenoglu.net/wp-content/uploads/Access-to-SQL-300x188.png" width="300" height="188" /></a><p class="wp-caption-text">Access to SQL</p></div>
+<p>Bunca yazının sonunda asıl dönüştürme işlemini aktarıyorum. Bu işlem için bize bir adet Access 2010 program lazım, belki 2007 versiyonuyla da yapılabilir ama ben kullanmıyorum. Dönüştürme işlemini yapacağınız access dosyasını açalım. Üst kısımdaki &#8220;Ribbon&#8221;dan &#8220;Database Tools/Veritabanı Araçları&#8221; menüsünden &#8220;SQL Server&#8221; düğmesine tıklayın. İlk önce yeni bir veritabanı mı yoksa var olan bir veritabanını mı kullanacağımızı seçiyoruz. Açılan pencereden ikinci sekmeyi açıyoruz ve &#8220;yeni&#8221; düğmesine tıklıyoruz. Ekrana gelen pencereden &#8220;SQL Server&#8221; seçeneğini takip edip bağlantı bilgilerini girin. En son olarak ise hangi tabloları SQL veritabanına aktaracağınızı seçiyoruz ve bitiyor.</p>
+  
+
+</div>
+
+    </div>
+  </article>          
+      
+
+
+<div id="comments" class="x-comments-area">
+
+  
+    <h2 class="h-comments-title"><span>Comments</span></h2>
+    <ol class="x-comments-list">
+          <li id="li-comment-695" itemprop="review" itemscope itemtype="http//schema.org/Review" class="comment even thread-even depth-1">
+      <article id="comment-695" class="comment">
+        <div class="x-comment-img"><span class="avatar-wrap cf"></span> </div>        <div class="x-comment-content-wrap">
+          <header class="x-comment-header">
+            <div class="x-comment-meta">
+              <a href="accessden-mssqle-veritabani-donusturme-islemleri.html#comment-695" tppabs="http://huseyinsekmenoglu.net/2012/accessden-mssqle-veritabani-donusturme-islemleri.html#comment-695" class="x-comment-time"><time itemprop="datePublished datetime="2013-12-22T21:09:38+00:00">22 Aralık 2013</time></a>                              <a rel='nofollow' class='comment-reply-link' href="accessden-mssqle-veritabani-donusturme-islemleri.html-replytocom=695.htm#respond" tppabs="http://huseyinsekmenoglu.net/2012/accessden-mssqle-veritabani-donusturme-islemleri.html?replytocom=695#respond" onclick='return addComment.moveForm( "comment-695", "695", "respond", "187" )' aria-label='Cevap Rasim '>Reply <span class="comment-reply-link-after"><i class="x-icon-reply" data-x-icon="&#xf112;"></i></span></a>                                        </div>
+            <cite class="x-comment-author" itemprop="author">Rasim</cite>                      </header>
+                    <section class="x-comment-content" itemprop="description">
+            <p>merhaba</p>
+<p>Benim sorunum,veritanabi.sql adında bir verilerim var bunu mssql de değilde mysql de çalışmasını istiyorum .&#8212;&#8212;-<br />
+örnek kod:<br />
+/****** Object:  ForeignKey [FK_Announcement_User]    Script Date: 12/04/2012 12:29:30 ******/<br />
+IF  EXISTS (SELECT * FROM sys.foreign_keys WHERE object_id = OBJECT_ID(N'[dbo].[FK_Announcement_User]&#8217;) AND parent_object_id = OBJECT_ID(N'[dbo].[Announcement]&#8217;))<br />
+ALTER TABLE [dbo].[Announcement] DROP CONSTRAINT [FK_Announcement_User]<br />
+&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;<br />
+bunları Mysql e nasıl çeviripte phpmyadmin&#8217;e yüklerim.</p>
+<p>Anlatımınız için teşekkürler</p>
+          </section>
+        </div>
+      </article>
+    </li><!-- #comment-## -->
+    <li id="li-comment-775" itemprop="review" itemscope itemtype="http//schema.org/Review" class="comment odd alt thread-odd thread-alt depth-1">
+      <article id="comment-775" class="comment">
+        <div class="x-comment-img"><span class="avatar-wrap cf"></span> </div>        <div class="x-comment-content-wrap">
+          <header class="x-comment-header">
+            <div class="x-comment-meta">
+              <a href="accessden-mssqle-veritabani-donusturme-islemleri.html#comment-775" tppabs="http://huseyinsekmenoglu.net/2012/accessden-mssqle-veritabani-donusturme-islemleri.html#comment-775" class="x-comment-time"><time itemprop="datePublished datetime="2015-04-22T00:30:46+00:00">22 Nisan 2015</time></a>                              <a rel='nofollow' class='comment-reply-link' href="accessden-mssqle-veritabani-donusturme-islemleri.html-replytocom=775.htm#respond" tppabs="http://huseyinsekmenoglu.net/2012/accessden-mssqle-veritabani-donusturme-islemleri.html?replytocom=775#respond" onclick='return addComment.moveForm( "comment-775", "775", "respond", "187" )' aria-label='Cevap Burhan ÖZATEŞ '>Reply <span class="comment-reply-link-after"><i class="x-icon-reply" data-x-icon="&#xf112;"></i></span></a>                                        </div>
+            <cite class="x-comment-author" itemprop="author"><a href="javascript:if(confirm(%27http://www.genctercih.com/  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.genctercih.com/%27" tppabs="http://www.genctercih.com/" rel='external nofollow' class='url'>Burhan ÖZATEŞ</a></cite>                      </header>
+                    <section class="x-comment-content" itemprop="description">
+            <p>Çok teşekkür ederim Hüseyin Bey, çok zor zannettiğim bir olayı basitçe Access ile halledebileceğimi düşünmemiştim. Karmakarışık programlarla uğraştım olmadı, gözümüzün önündekini görmemişiz&#8230;</p>
+          </section>
+        </div>
+      </article>
+    </li><!-- #comment-## -->
+    </ol>
+
+    
+    
+  
+  	<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title"><span>Leave a Comment</span> <small><a rel="nofollow" id="cancel-comment-reply-link" href="accessden-mssqle-veritabani-donusturme-islemleri.html#respond" tppabs="http://huseyinsekmenoglu.net/2012/accessden-mssqle-veritabani-donusturme-islemleri.html#respond" style="display:none;">Cevabı iptal et</a></small></h3>			<form action="http://huseyinsekmenoglu.net/wp-comments-post.php" method="post" id="commentform" class="comment-form">
+				<p class="comment-form-comment"><label for="comment">Comment</label><textarea id="comment" name="comment" cols="45" rows="8" placeholder="Your Comment *" aria-required='true' required='required'></textarea></p><p class="comment-form-author"><label for="author">Name <span class="required">*</span></label> <input id="author" name="author" type="text" value="" placeholder="Your Name *" size="30" aria-required='true' required='required' /></p>
+<p class="comment-form-email"><label for="email">Email <span class="required">*</span></label> <input id="email" name="email" type="text" value="" placeholder="Your Email *" size="30" aria-required='true' required='required' /></p>
+<p class="comment-form-url"><label for="url">Website</label><input id="url" name="url" type="text" value="" placeholder="Your Website" size="30" /></p>
+<p class="form-submit"><input name="submit" type="submit" id="entry-comment-submit" class="submit" value="Submit" /> <input type='hidden' name='comment_post_ID' value='187' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p>			</form>
+			</div><!-- #respond -->
+	
+</div>          
+      </div>
+
+              
+
+
+  <aside class="x-sidebar right" role="complementary">
+          		<div id="recent-posts-5" class="widget widget_recent_entries">		<h4 class="h-widget">Son Yazılar</h4>		<ul>
+					<li>
+				<a href="../2015/csste-sag-sol-alt-ve-ust-pikselleri-tek-seferde-yazmak.html" tppabs="http://huseyinsekmenoglu.net/2015/csste-sag-sol-alt-ve-ust-pikselleri-tek-seferde-yazmak.html">CSS&#8217;te Sağ, Sol, Alt ve Üst Pikselleri Tek Seferde Yazmak</a>
+							<span class="post-date">10 Nisan 2015</span>
+						</li>
+					<li>
+				<a href="../2015/sql-sunucunuz-neden-hantal-calisiyor.html" tppabs="http://huseyinsekmenoglu.net/2015/sql-sunucunuz-neden-hantal-calisiyor.html">SQL Sunucunuz Neden Hantal Çalışıyor?</a>
+							<span class="post-date">23 Mart 2015</span>
+						</li>
+					<li>
+				<a href="../2015/telefondan-cektiginiz-videolarin-yonu-nasil-duzeltilir.html" tppabs="http://huseyinsekmenoglu.net/2015/telefondan-cektiginiz-videolarin-yonu-nasil-duzeltilir.html">Telefondan çektiğiniz videoların yönü nasıl düzeltilir?</a>
+							<span class="post-date">2 Mart 2015</span>
+						</li>
+					<li>
+				<a href="../2015/kendi-windows-sunucunuza-visual-studio-icin-git-kurulumu.html" tppabs="http://huseyinsekmenoglu.net/2015/kendi-windows-sunucunuza-visual-studio-icin-git-kurulumu.html">Kendi Windows Sunucunuza Visual Studio için GIT Kurulumu</a>
+							<span class="post-date">2 Şubat 2015</span>
+						</li>
+					<li>
+				<a href="../2015/2014-nasil-gecti.html" tppabs="http://huseyinsekmenoglu.net/2015/2014-nasil-gecti.html">2014 nasıl geçti?</a>
+							<span class="post-date">2 Ocak 2015</span>
+						</li>
+				</ul>
+		</div>		<div id="recent-comments-5" class="widget widget_recent_comments"><h4 class="h-widget">Son Yorumlar</h4><ul id="recentcomments"><li class="recentcomments"><a href="../2013/wordpress-ile-arsiv-sayfasi-olusturma.html#comment-804" tppabs="http://huseyinsekmenoglu.net/2013/wordpress-ile-arsiv-sayfasi-olusturma.html#comment-804">WordPress İle Arşiv Sayfası Oluşturma</a> için <span class="comment-author-link"><a href="javascript:if(confirm(%27http://mesutaktun.net/  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27http://mesutaktun.net/%27" tppabs="http://mesutaktun.net/" rel='external nofollow' class='url'>Mesut AKTUN</a></span></li><li class="recentcomments"><a href="gmail-uzerinden-asp-ile-mail-gonderme.html#comment-791" tppabs="http://huseyinsekmenoglu.net/2012/gmail-uzerinden-asp-ile-mail-gonderme.html#comment-791">Gmail üzerinden ASP ile mail gönderme</a> için <span class="comment-author-link"><a href="../index.htm" tppabs="http://huseyinsekmenoglu.net/" rel='external nofollow' class='url'>Hüseyin Sekmenoğlu</a></span></li><li class="recentcomments"><a href="gmail-uzerinden-asp-ile-mail-gonderme.html#comment-786" tppabs="http://huseyinsekmenoglu.net/2012/gmail-uzerinden-asp-ile-mail-gonderme.html#comment-786">Gmail üzerinden ASP ile mail gönderme</a> için <span class="comment-author-link">Gökçen</span></li><li class="recentcomments"><a href="../2010/virtual-villagers-ve-bendeki-etkileri.html#comment-782" tppabs="http://huseyinsekmenoglu.net/2010/virtual-villagers-ve-bendeki-etkileri.html#comment-782">Virtual Villagers ve bendeki etkileri</a> için <span class="comment-author-link">melo</span></li><li class="recentcomments"><a href="toplu-dosya-ismi-nasil-degistirilir.html#comment-778" tppabs="http://huseyinsekmenoglu.net/2012/toplu-dosya-ismi-nasil-degistirilir.html#comment-778">Toplu dosya ismi nasıl değiştirilir</a> için <span class="comment-author-link"><a href="javascript:if(confirm(%27http://www.otofix.com/  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.otofix.com/%27" tppabs="http://www.otofix.com/" rel='external nofollow' class='url'>İlhan ARIK</a></span></li></ul></div><div id="tag_cloud-5" class="widget widget_tag_cloud"><h4 class="h-widget">Etiketler</h4><div class="tagcloud"><a href="../tag/access.htm" tppabs="http://huseyinsekmenoglu.net/tag/access" class='tag-link-36 tag-link-position-1' title='3 konu' >access</a>
+<a href="../tag/ajax.htm" tppabs="http://huseyinsekmenoglu.net/tag/ajax" class='tag-link-42 tag-link-position-2' title='1 konu' >ajax</a>
+<a href="../tag/album.htm" tppabs="http://huseyinsekmenoglu.net/tag/album" class='tag-link-27 tag-link-position-3' title='8 konu' >album</a>
+<a href="../tag/android.htm" tppabs="http://huseyinsekmenoglu.net/tag/android" class='tag-link-46 tag-link-position-4' title='1 konu' >android</a>
+<a href="../tag/asp.htm" tppabs="http://huseyinsekmenoglu.net/tag/asp" class='tag-link-16 tag-link-position-5' title='13 konu' >asp</a>
+<a href="../tag/aspx.htm" tppabs="http://huseyinsekmenoglu.net/tag/aspx" class='tag-link-41 tag-link-position-6' title='1 konu' >aspx</a>
+<a href="../tag/bilgisayar.htm" tppabs="http://huseyinsekmenoglu.net/tag/bilgisayar" class='tag-link-12 tag-link-position-7' title='27 konu' >bilgisayar</a>
+<a href="../tag/blog.htm" tppabs="http://huseyinsekmenoglu.net/tag/blog" class='tag-link-21 tag-link-position-8' title='12 konu' >blog</a>
+<a href="../tag/css.htm" tppabs="http://huseyinsekmenoglu.net/tag/css" class='tag-link-51 tag-link-position-9' title='1 konu' >CSS</a>
+<a href="../tag/etik.htm" tppabs="http://huseyinsekmenoglu.net/tag/etik" class='tag-link-24 tag-link-position-10' title='2 konu' >etik</a>
+<a href="../tag/egitim.htm" tppabs="http://huseyinsekmenoglu.net/tag/egitim" class='tag-link-10 tag-link-position-11' title='47 konu' >eğitim</a>
+<a href="../tag/eglence.htm" tppabs="http://huseyinsekmenoglu.net/tag/eglence" class='tag-link-18 tag-link-position-12' title='8 konu' >eğlence</a>
+<a href="../tag/git.htm" tppabs="http://huseyinsekmenoglu.net/tag/git" class='tag-link-48 tag-link-position-13' title='1 konu' >GIT</a>
+<a href="../tag/hakkimda.htm" tppabs="http://huseyinsekmenoglu.net/tag/hakkimda" class='tag-link-9 tag-link-position-14' title='15 konu' >hakkımda</a>
+<a href="../tag/hosting.htm" tppabs="http://huseyinsekmenoglu.net/tag/hosting" class='tag-link-30 tag-link-position-15' title='5 konu' >hosting</a>
+<a href="../tag/html.htm" tppabs="http://huseyinsekmenoglu.net/tag/html" class='tag-link-52 tag-link-position-16' title='1 konu' >HTML</a>
+<a href="../tag/iis.htm" tppabs="http://huseyinsekmenoglu.net/tag/iis" class='tag-link-38 tag-link-position-17' title='4 konu' >IIS</a>
+<a href="../tag/internet.htm" tppabs="http://huseyinsekmenoglu.net/tag/internet" class='tag-link-53 tag-link-position-18' title='34 konu' >internet</a>
+<a href="../tag/ispkosova.htm" tppabs="http://huseyinsekmenoglu.net/tag/ispkosova" class='tag-link-11 tag-link-position-19' title='2 konu' >ispkosova</a>
+<a href="../tag/javascript.htm" tppabs="http://huseyinsekmenoglu.net/tag/javascript" class='tag-link-17 tag-link-position-20' title='4 konu' >javascript</a>
+<a href="../tag/jquery.htm" tppabs="http://huseyinsekmenoglu.net/tag/jquery" class='tag-link-19 tag-link-position-21' title='2 konu' >jquery</a>
+<a href="../tag/kariyer.htm" tppabs="http://huseyinsekmenoglu.net/tag/kariyer" class='tag-link-29 tag-link-position-22' title='3 konu' >kariyer</a>
+<a href="../tag/microsoft.htm" tppabs="http://huseyinsekmenoglu.net/tag/microsoft" class='tag-link-37 tag-link-position-23' title='8 konu' >microsoft</a>
+<a href="../tag/mozaik.htm" tppabs="http://huseyinsekmenoglu.net/tag/mozaik" class='tag-link-32 tag-link-position-24' title='1 konu' >mozaik</a>
+<a href="../tag/mssql.htm" tppabs="http://huseyinsekmenoglu.net/tag/mssql" class='tag-link-35 tag-link-position-25' title='5 konu' >mssql</a>
+<a href="../tag/mysql.htm" tppabs="http://huseyinsekmenoglu.net/tag/mysql" class='tag-link-45 tag-link-position-26' title='2 konu' >mysql</a>
+<a href="../tag/php.htm" tppabs="http://huseyinsekmenoglu.net/tag/php" class='tag-link-28 tag-link-position-27' title='7 konu' >php</a>
+<a href="../tag/programlama.htm" tppabs="http://huseyinsekmenoglu.net/tag/programlama" class='tag-link-55 tag-link-position-28' title='30 konu' >programlama</a>
+<a href="../tag/resim.htm" tppabs="http://huseyinsekmenoglu.net/tag/resim" class='tag-link-56 tag-link-position-29' title='2 konu' >resim</a>
+<a href="../tag/server.htm" tppabs="http://huseyinsekmenoglu.net/tag/server" class='tag-link-44 tag-link-position-30' title='8 konu' >server</a>
+<a href="../tag/teknoloji_2.htm" tppabs="http://huseyinsekmenoglu.net/tag/teknoloji_2" class='tag-link-13 tag-link-position-31' title='17 konu' >teknoloji</a>
+<a href="../tag/telefon.htm" tppabs="http://huseyinsekmenoglu.net/tag/telefon" class='tag-link-14 tag-link-position-32' title='3 konu' >telefon</a>
+<a href="../tag/vb-net.htm" tppabs="http://huseyinsekmenoglu.net/tag/vb-net" class='tag-link-34 tag-link-position-33' title='7 konu' >vb.net</a>
+<a href="../tag/video.htm" tppabs="http://huseyinsekmenoglu.net/tag/video" class='tag-link-26 tag-link-position-34' title='7 konu' >video</a>
+<a href="../tag/windows.htm" tppabs="http://huseyinsekmenoglu.net/tag/windows" class='tag-link-43 tag-link-position-35' title='6 konu' >windows</a>
+<a href="../tag/wordpress.htm" tppabs="http://huseyinsekmenoglu.net/tag/wordpress" class='tag-link-20 tag-link-position-36' title='7 konu' >wordpress</a>
+<a href="../tag/yedek.htm" tppabs="http://huseyinsekmenoglu.net/tag/yedek" class='tag-link-39 tag-link-position-37' title='3 konu' >yedek</a>
+<a href="../tag/yenilik.htm" tppabs="http://huseyinsekmenoglu.net/tag/yenilik" class='tag-link-15 tag-link-position-38' title='26 konu' >yenilik</a>
+<a href="../tag/youtube.htm" tppabs="http://huseyinsekmenoglu.net/tag/youtube" class='tag-link-25 tag-link-position-39' title='4 konu' >youtube</a>
+<a href="../tag/cozum.htm" tppabs="http://huseyinsekmenoglu.net/tag/cozum" class='tag-link-54 tag-link-position-40' title='41 konu' >çözüm</a></div>
+</div>      </aside>
+
+      
+    </div>
+  </div>
+
+
+
+  
+  
+    <div class="x-widgetbar collapse">
+      <div class="x-widgetbar-inner">
+        <div class="x-container max width">
+
+          <div class="x-column x-md x-1-2"></div><div class="x-column x-md x-1-2 last"></div>
+        </div>
+      </div>
+    </div>
+
+    <a href="#" class="x-btn-widgetbar collapsed" data-toggle="collapse" data-target=".x-widgetbar">
+      <i class="x-icon-plus-circle" data-x-icon="&#xf055;"><span class="visually-hidden">Toggle the Widgetbar</span></i>
+    </a>
+
+    
+  
+
+  <footer class="x-colophon top" role="contentinfo">
+    <div class="x-container max width">
+
+      <div class="x-column x-md x-1-3"><div id="categories-3" class="widget widget_categories"><h4 class="h-widget">Kategoriler</h4>		<ul>
+	<li class="cat-item cat-item-1"><a href="../category/benden.htm" tppabs="http://huseyinsekmenoglu.net/category/benden" >Benden</a> (14)
+</li>
+	<li class="cat-item cat-item-4"><a href="../category/cozum.htm" tppabs="http://huseyinsekmenoglu.net/category/cozum" >çözüm</a> (32)
+</li>
+	<li class="cat-item cat-item-50"><a href="../category/egitim.htm" tppabs="http://huseyinsekmenoglu.net/category/egitim" >Eğitim</a> (2)
+</li>
+	<li class="cat-item cat-item-3"><a href="../category/internet.htm" tppabs="http://huseyinsekmenoglu.net/category/internet" >internet</a> (19)
+</li>
+	<li class="cat-item cat-item-33"><a href="../category/oyun.htm" tppabs="http://huseyinsekmenoglu.net/category/oyun" >Oyun</a> (2)
+</li>
+	<li class="cat-item cat-item-8"><a href="../category/programlama.htm" tppabs="http://huseyinsekmenoglu.net/category/programlama" >programlama</a> (24)
+</li>
+	<li class="cat-item cat-item-31"><a href="../category/resim.htm" tppabs="http://huseyinsekmenoglu.net/category/resim" >resim</a> (2)
+</li>
+	<li class="cat-item cat-item-40"><a href="../category/site-tanitimi.htm" tppabs="http://huseyinsekmenoglu.net/category/site-tanitimi" >Site Tanıtımı</a> (8)
+</li>
+	<li class="cat-item cat-item-5"><a href="../category/teknoloji.htm" tppabs="http://huseyinsekmenoglu.net/category/teknoloji" >Teknoloji</a> (7)
+</li>
+	<li class="cat-item cat-item-49"><a href="../category/video.htm" tppabs="http://huseyinsekmenoglu.net/category/video" >video</a> (1)
+</li>
+		</ul>
+</div></div><div class="x-column x-md x-1-3">		<div id="recent-posts-4" class="widget widget_recent_entries">		<h4 class="h-widget">Son Yazılar</h4>		<ul>
+					<li>
+				<a href="../2015/csste-sag-sol-alt-ve-ust-pikselleri-tek-seferde-yazmak.html" tppabs="http://huseyinsekmenoglu.net/2015/csste-sag-sol-alt-ve-ust-pikselleri-tek-seferde-yazmak.html">CSS&#8217;te Sağ, Sol, Alt ve Üst Pikselleri Tek Seferde Yazmak</a>
+							<span class="post-date">10 Nisan 2015</span>
+						</li>
+					<li>
+				<a href="../2015/sql-sunucunuz-neden-hantal-calisiyor.html" tppabs="http://huseyinsekmenoglu.net/2015/sql-sunucunuz-neden-hantal-calisiyor.html">SQL Sunucunuz Neden Hantal Çalışıyor?</a>
+							<span class="post-date">23 Mart 2015</span>
+						</li>
+					<li>
+				<a href="../2015/telefondan-cektiginiz-videolarin-yonu-nasil-duzeltilir.html" tppabs="http://huseyinsekmenoglu.net/2015/telefondan-cektiginiz-videolarin-yonu-nasil-duzeltilir.html">Telefondan çektiğiniz videoların yönü nasıl düzeltilir?</a>
+							<span class="post-date">2 Mart 2015</span>
+						</li>
+					<li>
+				<a href="../2015/kendi-windows-sunucunuza-visual-studio-icin-git-kurulumu.html" tppabs="http://huseyinsekmenoglu.net/2015/kendi-windows-sunucunuza-visual-studio-icin-git-kurulumu.html">Kendi Windows Sunucunuza Visual Studio için GIT Kurulumu</a>
+							<span class="post-date">2 Şubat 2015</span>
+						</li>
+					<li>
+				<a href="../2015/2014-nasil-gecti.html" tppabs="http://huseyinsekmenoglu.net/2015/2014-nasil-gecti.html">2014 nasıl geçti?</a>
+							<span class="post-date">2 Ocak 2015</span>
+						</li>
+				</ul>
+		</div>		</div><div class="x-column x-md x-1-3 last"><div id="recent-comments-4" class="widget widget_recent_comments"><h4 class="h-widget">Son Yorumlar</h4><ul id="recentcomments"><li class="recentcomments"><a href="../2013/wordpress-ile-arsiv-sayfasi-olusturma.html#comment-804" tppabs="http://huseyinsekmenoglu.net/2013/wordpress-ile-arsiv-sayfasi-olusturma.html#comment-804">WordPress İle Arşiv Sayfası Oluşturma</a> için <span class="comment-author-link"><a href="javascript:if(confirm(%27http://mesutaktun.net/  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27http://mesutaktun.net/%27" tppabs="http://mesutaktun.net/" rel='external nofollow' class='url'>Mesut AKTUN</a></span></li><li class="recentcomments"><a href="gmail-uzerinden-asp-ile-mail-gonderme.html#comment-791" tppabs="http://huseyinsekmenoglu.net/2012/gmail-uzerinden-asp-ile-mail-gonderme.html#comment-791">Gmail üzerinden ASP ile mail gönderme</a> için <span class="comment-author-link"><a href="../index.htm" tppabs="http://huseyinsekmenoglu.net/" rel='external nofollow' class='url'>Hüseyin Sekmenoğlu</a></span></li><li class="recentcomments"><a href="gmail-uzerinden-asp-ile-mail-gonderme.html#comment-786" tppabs="http://huseyinsekmenoglu.net/2012/gmail-uzerinden-asp-ile-mail-gonderme.html#comment-786">Gmail üzerinden ASP ile mail gönderme</a> için <span class="comment-author-link">Gökçen</span></li><li class="recentcomments"><a href="../2010/virtual-villagers-ve-bendeki-etkileri.html#comment-782" tppabs="http://huseyinsekmenoglu.net/2010/virtual-villagers-ve-bendeki-etkileri.html#comment-782">Virtual Villagers ve bendeki etkileri</a> için <span class="comment-author-link">melo</span></li><li class="recentcomments"><a href="toplu-dosya-ismi-nasil-degistirilir.html#comment-778" tppabs="http://huseyinsekmenoglu.net/2012/toplu-dosya-ismi-nasil-degistirilir.html#comment-778">Toplu dosya ismi nasıl değiştirilir</a> için <span class="comment-author-link"><a href="javascript:if(confirm(%27http://www.otofix.com/  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.otofix.com/%27" tppabs="http://www.otofix.com/" rel='external nofollow' class='url'>İlhan ARIK</a></span></li></ul></div></div>
+    </div>
+  </footer>
+
+
+  
+    <footer class="x-colophon bottom" role="contentinfo">
+      <div class="x-container max width">
+
+                  <div class="x-colophon-content">
+            Her Hakkı Saklıdır.          </div>
+        
+                  
+<ul id="menu-alt" class="x-nav"><li id="menu-item-38" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-38"><a href="javascript:if(confirm(%27https://huseyinsekmenoglu.net/  \n\nThis file was not retrieved by Teleport Pro, because it is addressed using an unsupported protocol (e.g., gopher).  \n\nDo you want to open it from the server?%27))window.location=%27https://huseyinsekmenoglu.net/%27" tppabs="https://huseyinsekmenoglu.net/">BLOG</a></li>
+<li id="menu-item-13" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13"><a href="../arsiv.htm" tppabs="http://huseyinsekmenoglu.net/arsiv">Arşiv</a></li>
+<li id="menu-item-494" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-494"><a href="../iletisim.htm" tppabs="http://huseyinsekmenoglu.net/iletisim">İletişim</a></li>
+<li id="menu-item-40" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-40"><a href="#header">Yukarı Çık</a></li>
+</ul>        
+                  <div class="x-social-global"></div>        
+      </div>
+    </footer>
+
+  
+
+  
+      <div class="x-searchform-overlay">
+        <div class="x-searchform-overlay-inner">
+          <div class="x-container max width">
+            <form method="get" id="searchform" class="form-search center-text" action="http://huseyinsekmenoglu.net/">
+              <label for="s" class="cfc-h-tx tt-upper">Type and Press &ldquo;enter&rdquo; to Search</label>
+              <input type="text" id="s" class="search-query cfc-h-tx center-text tt-upper" name="s">
+            </form>
+          </div>
+        </div>
+      </div>
+
+      
+  </div> <!-- END #top.site -->
+
+  
+<script type='text/javascript' src="../wp-content/themes/x/framework/js/dist/site/x-head.min.js-ver=4.6.4.js" tppabs="http://huseyinsekmenoglu.net/wp-content/themes/x/framework/js/dist/site/x-head.min.js?ver=4.6.4"></script>
+<script type='text/javascript' src="../wp-content/themes/x/framework/js/dist/site/x-body.min.js-ver=4.6.4.js" tppabs="http://huseyinsekmenoglu.net/wp-content/themes/x/framework/js/dist/site/x-body.min.js?ver=4.6.4"></script>
+<script type='text/javascript' src="../wp-includes/js/comment-reply.min.js-ver=4.7.2.js" tppabs="http://huseyinsekmenoglu.net/wp-includes/js/comment-reply.min.js?ver=4.7.2"></script>
+<script type='text/javascript' src="../wp-content/plugins/cornerstone/assets/dist/js/site/cs-head.min.js-ver=1.3.3.js" tppabs="http://huseyinsekmenoglu.net/wp-content/plugins/cornerstone/assets/dist/js/site/cs-head.min.js?ver=1.3.3"></script>
+<script type='text/javascript' src="../wp-content/plugins/cornerstone/assets/dist/js/site/cs-body.min.js-ver=1.3.3.js" tppabs="http://huseyinsekmenoglu.net/wp-content/plugins/cornerstone/assets/dist/js/site/cs-body.min.js?ver=1.3.3"></script>
+<script type='text/javascript' src="../wp-includes/js/wp-embed.min.js-ver=4.7.2.js" tppabs="http://huseyinsekmenoglu.net/wp-includes/js/wp-embed.min.js?ver=4.7.2"></script>
+
+  
+  
+</body>
+</html>
