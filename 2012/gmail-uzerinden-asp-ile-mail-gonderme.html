@@ -4,15 +4,38 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 9]><html class="no-js ie9" lang="tr-TR"><![endif]-->
-<!--[if gt IE 9]><!--><html class="no-js" lang="tr-TR"><!--<![endif]-->
+<!--[if IE 9]><html class="no-js ie9" lang="tr-TR" prefix="og: http://ogp.me/ns#"><![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js" lang="tr-TR" prefix="og: http://ogp.me/ns#"><!--<![endif]-->
 
 <head>
   
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Gmail üzerinden ASP ile mail gönderme | Hüseyin Sekmenoğlu | Çözebildiğim Sorunlar</title>
-<link rel="pingback" href="https://wp.huseyinsekmenoglu.net/xmlrpc.php"><link rel="shortcut icon" href="../favicon.ico" tppabs="https://wp.huseyinsekmenoglu.net/favicon.ico"><link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel="pingback" href="https://wp.huseyinsekmenoglu.net/xmlrpc.php"><link rel="shortcut icon" href="../favicon.ico" tppabs="https://wp.huseyinsekmenoglu.net/favicon.ico">
+<!-- This site is optimized with the Yoast SEO plugin v4.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<link rel="canonical" href="https://wp.huseyinsekmenoglu.net/2012/gmail-uzerinden-asp-ile-mail-gonderme.html" />
+<meta property="og:locale" content="tr_TR" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Gmail üzerinden ASP ile mail gönderme | Hüseyin Sekmenoğlu | Çözebildiğim Sorunlar" />
+<meta property="og:description" content="Bize tek lazım olan bir Gmail hesabı, biraz da asp bilgisi. Başka dillerde de yapılır elbette ama uyarlamak lazım. Gmail kullanıcı adımız &#8220;hesap&#8221; olsun. Bu durumda mail adresimiz &#8220;hesap@gmail.com&#8221; olacaktır. Şifreyi de &#8220;Zor1Sifre&#8221; olsun ki kolayca bulunmasın. Adım 1 Tanımlamaları ve sabit değerleri bir asp sayfasına yazacağız. Adım 2 Burada da mail gönderme fonksiyonumuz var. Ben sadece bir örnek yazdım ..." />
+<meta property="og:url" content="https://wp.huseyinsekmenoglu.net/2012/gmail-uzerinden-asp-ile-mail-gonderme.html" />
+<meta property="og:site_name" content="Hüseyin Sekmenoğlu | Çözebildiğim Sorunlar" />
+<meta property="article:tag" content="asp" />
+<meta property="article:tag" content="çözüm" />
+<meta property="article:tag" content="eğitim" />
+<meta property="article:tag" content="internet" />
+<meta property="article:tag" content="programlama" />
+<meta property="article:section" content="çözüm" />
+<meta property="article:published_time" content="2012-08-12T23:21:26+00:00" />
+<meta property="article:modified_time" content="2017-01-29T21:57:08+00:00" />
+<meta property="og:updated_time" content="2017-01-29T21:57:08+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="Bize tek lazım olan bir Gmail hesabı, biraz da asp bilgisi. Başka dillerde de yapılır elbette ama uyarlamak lazım. Gmail kullanıcı adımız &#8220;hesap&#8221; olsun. Bu durumda mail adresimiz &#8220;hesap@gmail.com&#8221; olacaktır. Şifreyi de &#8220;Zor1Sifre&#8221; olsun ki kolayca bulunmasın. Adım 1 Tanımlamaları ve sabit değerleri bir asp sayfasına yazacağız. Adım 2 Burada da mail gönderme fonksiyonumuz var. Ben sadece bir örnek yazdım ..." />
+<meta name="twitter:title" content="Gmail üzerinden ASP ile mail gönderme | Hüseyin Sekmenoğlu | Çözebildiğim Sorunlar" />
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
 <link rel='dns-prefetch' href='//s.w.org' />
 <link rel="alternate" type="application/rss+xml" title="Hüseyin Sekmenoğlu | Çözebildiğim Sorunlar &raquo; beslemesi" href="https://wp.huseyinsekmenoglu.net/feed" />
 <link rel="alternate" type="application/rss+xml" title="Hüseyin Sekmenoğlu | Çözebildiğim Sorunlar &raquo; yorum beslemesi" href="https://wp.huseyinsekmenoglu.net/comments/feed" />
@@ -39,7 +62,6 @@ img.emoji {
 <link rel='stylesheet' id='x-google-fonts-css'  href="../../fonts.googleapis.com/css-family=Lato-400,400italic,700,700italic&subset=latin,latin-ext&ver=4.6.4.css" tppabs="https://fonts.googleapis.com/css?family=Lato%3A400%2C400italic%2C700%2C700italic&subset=latin%2Clatin-ext&ver=4.6.4" type='text/css' media='all' />
 <link rel='stylesheet' id='x-fa-icon-classes-css'  href="../wp-content/plugins/cornerstone/assets/dist/css/site/fa-icon-classes.css-ver=1.3.3.css" tppabs="https://wp.huseyinsekmenoglu.net/wp-content/plugins/cornerstone/assets/dist/css/site/fa-icon-classes.css?ver=1.3.3" type='text/css' media='all' />
 <link rel='https://api.w.org/' href='https://wp.huseyinsekmenoglu.net/wp-json/' />
-<link rel="canonical" href="https://wp.huseyinsekmenoglu.net/2012/gmail-uzerinden-asp-ile-mail-gonderme.html" />
 <link rel='shortlink' href='https://wp.huseyinsekmenoglu.net/?p=182' />
 <link rel="alternate" type="application/json+oembed" href="https://wp.huseyinsekmenoglu.net/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwp.huseyinsekmenoglu.net%2F2012%2Fgmail-uzerinden-asp-ile-mail-gonderme.html" />
 <link rel="alternate" type="text/xml+oembed" href="https://wp.huseyinsekmenoglu.net/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwp.huseyinsekmenoglu.net%2F2012%2Fgmail-uzerinden-asp-ile-mail-gonderme.html&#038;format=xml" />

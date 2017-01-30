@@ -4,15 +4,43 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 9]><html class="no-js ie9" lang="tr-TR"><![endif]-->
-<!--[if gt IE 9]><!--><html class="no-js" lang="tr-TR"><!--<![endif]-->
+<!--[if IE 9]><html class="no-js ie9" lang="tr-TR" prefix="og: http://ogp.me/ns#"><![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js" lang="tr-TR" prefix="og: http://ogp.me/ns#"><!--<![endif]-->
 
 <head>
   
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>WordPress İle Arşiv Sayfası Oluşturma | Hüseyin Sekmenoğlu | Çözebildiğim Sorunlar</title>
-<link rel="pingback" href="https://wp.huseyinsekmenoglu.net/xmlrpc.php"><link rel="shortcut icon" href="../favicon.ico" tppabs="https://wp.huseyinsekmenoglu.net/favicon.ico"><link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<title>Wordpress İle Arşiv Sayfası Oluşturma | Hüseyin Sekmenoğlu | Çözebildiğim Sorunlar</title>
+<link rel="pingback" href="https://wp.huseyinsekmenoglu.net/xmlrpc.php"><link rel="shortcut icon" href="../favicon.ico" tppabs="https://wp.huseyinsekmenoglu.net/favicon.ico">
+<!-- This site is optimized with the Yoast SEO plugin v4.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<link rel="canonical" href="https://wp.huseyinsekmenoglu.net/2013/wordpress-ile-arsiv-sayfasi-olusturma.html" />
+<meta property="og:locale" content="tr_TR" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Wordpress İle Arşiv Sayfası Oluşturma | Hüseyin Sekmenoğlu | Çözebildiğim Sorunlar" />
+<meta property="og:description" content="Daha önceki bir yazımda bahsettiğim gibi WordPress ile sitenize arşiv sayfası oluşturmak çok kolay. Lakin eğer istediğiniz tasarım farklı bir şey ise, mesela benim sitemde kullandığım tarz gibi, biraz uğraşmak gerekiyor. İnternette basit birkaç tasarım bulmak mümkün ama benim yaptığım gibi bulamazsınız, çünkü ben de bulamadım. Farklı farklı yerlerden öğrendiğim kodlar ve biraz da PHP tecrübemi kullanarak basit bir kaç ..." />
+<meta property="og:url" content="https://wp.huseyinsekmenoglu.net/2013/wordpress-ile-arsiv-sayfasi-olusturma.html" />
+<meta property="og:site_name" content="Hüseyin Sekmenoğlu | Çözebildiğim Sorunlar" />
+<meta property="article:tag" content="blog" />
+<meta property="article:tag" content="çözüm" />
+<meta property="article:tag" content="eğitim" />
+<meta property="article:tag" content="php" />
+<meta property="article:tag" content="programlama" />
+<meta property="article:tag" content="wordpress" />
+<meta property="article:section" content="çözüm" />
+<meta property="article:published_time" content="2013-01-08T12:54:07+00:00" />
+<meta property="article:modified_time" content="2017-01-29T22:01:05+00:00" />
+<meta property="og:updated_time" content="2017-01-29T22:01:05+00:00" />
+<meta property="og:image" content="https://wp.huseyinsekmenoglu.net/wp-content/uploads/arsiv-sayfasi.png" />
+<meta property="og:image:width" content="502" />
+<meta property="og:image:height" content="739" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="Daha önceki bir yazımda bahsettiğim gibi WordPress ile sitenize arşiv sayfası oluşturmak çok kolay. Lakin eğer istediğiniz tasarım farklı bir şey ise, mesela benim sitemde kullandığım tarz gibi, biraz uğraşmak gerekiyor. İnternette basit birkaç tasarım bulmak mümkün ama benim yaptığım gibi bulamazsınız, çünkü ben de bulamadım. Farklı farklı yerlerden öğrendiğim kodlar ve biraz da PHP tecrübemi kullanarak basit bir kaç ..." />
+<meta name="twitter:title" content="Wordpress İle Arşiv Sayfası Oluşturma | Hüseyin Sekmenoğlu | Çözebildiğim Sorunlar" />
+<meta name="twitter:image" content="https://wp.huseyinsekmenoglu.net/wp-content/uploads/arsiv-sayfasi.png" />
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
 <link rel='dns-prefetch' href='//s.w.org' />
 <link rel="alternate" type="application/rss+xml" title="Hüseyin Sekmenoğlu | Çözebildiğim Sorunlar &raquo; beslemesi" href="https://wp.huseyinsekmenoglu.net/feed" />
 <link rel="alternate" type="application/rss+xml" title="Hüseyin Sekmenoğlu | Çözebildiğim Sorunlar &raquo; yorum beslemesi" href="https://wp.huseyinsekmenoglu.net/comments/feed" />
@@ -39,7 +67,6 @@ img.emoji {
 <link rel='stylesheet' id='x-google-fonts-css'  href="../../fonts.googleapis.com/css-family=Lato-400,400italic,700,700italic&subset=latin,latin-ext&ver=4.6.4.css" tppabs="https://fonts.googleapis.com/css?family=Lato%3A400%2C400italic%2C700%2C700italic&subset=latin%2Clatin-ext&ver=4.6.4" type='text/css' media='all' />
 <link rel='stylesheet' id='x-fa-icon-classes-css'  href="../wp-content/plugins/cornerstone/assets/dist/css/site/fa-icon-classes.css-ver=1.3.3.css" tppabs="https://wp.huseyinsekmenoglu.net/wp-content/plugins/cornerstone/assets/dist/css/site/fa-icon-classes.css?ver=1.3.3" type='text/css' media='all' />
 <link rel='https://api.w.org/' href='https://wp.huseyinsekmenoglu.net/wp-json/' />
-<link rel="canonical" href="https://wp.huseyinsekmenoglu.net/2013/wordpress-ile-arsiv-sayfasi-olusturma.html" />
 <link rel='shortlink' href='https://wp.huseyinsekmenoglu.net/?p=189' />
 <link rel="alternate" type="application/json+oembed" href="https://wp.huseyinsekmenoglu.net/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwp.huseyinsekmenoglu.net%2F2013%2Fwordpress-ile-arsiv-sayfasi-olusturma.html" />
 <link rel="alternate" type="text/xml+oembed" href="https://wp.huseyinsekmenoglu.net/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwp.huseyinsekmenoglu.net%2F2013%2Fwordpress-ile-arsiv-sayfasi-olusturma.html&#038;format=xml" />
