@@ -1,941 +1,993 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//wp.huseyinsekmenoglu.net/main-sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>https://wp.huseyinsekmenoglu.net/</loc>
+		<loc>https://huseyinsekmenoglu.net/</loc>
 	</url>
 	<url>
-		<loc>https://wp.huseyinsekmenoglu.net/2012/bu-nasil-hakaret-boyle.html</loc>
+		<loc>https://huseyinsekmenoglu.net/2012/bu-nasil-hakaret-boyle.html</loc>
 		<lastmod>2012-12-15T09:37:47+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://wp.huseyinsekmenoglu.net/2010/ninite-com.html</loc>
+		<loc>https://huseyinsekmenoglu.net/2010/ninite-com.html</loc>
 		<lastmod>2013-04-15T22:58:20+01:00</lastmod>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/ninite-kurulum.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/ninite-kurulum.png</image:loc>
 			<image:title><![CDATA[ninite.com sitesinin kullandığı program yükleyici]]></image:title>
 			<image:caption><![CDATA[ninite.com sitesinin kullandığı program yükleyici]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://wp.huseyinsekmenoglu.net/2014/adim-adim-accessten-mssqle-veritabani-aktarma.html</loc>
+		<loc>https://huseyinsekmenoglu.net/2014/adim-adim-accessten-mssqle-veritabani-aktarma.html</loc>
 		<lastmod>2014-08-21T19:52:10+01:00</lastmod>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/sql-server.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/sql-server.png</image:loc>
 			<image:title><![CDATA[SQL Server Logo]]></image:title>
 			<image:caption><![CDATA[SQL Server Logo]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://wp.huseyinsekmenoglu.net/2014/vb-net-ile-aviden-mp4e-video-donusturme.html</loc>
+		<loc>https://huseyinsekmenoglu.net/2014/vb-net-ile-aviden-mp4e-video-donusturme.html</loc>
 		<lastmod>2015-02-04T13:14:50+00:00</lastmod>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/ConverterAviToMP4.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/ConverterAviToMP4.png</image:loc>
 			<image:title><![CDATA[Avi To MP4 Converter]]></image:title>
 			<image:caption><![CDATA[Avi To MP4 Converter]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/ConverterAviToMP4.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/ConverterAviToMP4.png</image:loc>
 			<image:caption><![CDATA[Avi To MP4 Converter]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://wp.huseyinsekmenoglu.net/2010/aspde-urlyi-yeniden-yazisimla-ilgili.html</loc>
+		<loc>https://huseyinsekmenoglu.net/2010/aspde-urlyi-yeniden-yazisimla-ilgili.html</loc>
 		<lastmod>2017-01-29T19:20:51+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://wp.huseyinsekmenoglu.net/2010/prensiplerim.html</loc>
+		<loc>https://huseyinsekmenoglu.net/2010/prensiplerim.html</loc>
 		<lastmod>2017-01-29T19:21:08+00:00</lastmod>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/prensip.gif</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/prensip.gif</image:loc>
 			<image:title><![CDATA[Bir programcının prensipleri]]></image:title>
 			<image:caption><![CDATA[Bir programcının prensipleri]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/prensip.gif</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/prensip.gif</image:loc>
 			<image:title><![CDATA[Bir programcının prensipleri]]></image:title>
 			<image:caption><![CDATA[Bir programcının prensipleri]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://wp.huseyinsekmenoglu.net/2010/tasarim-ile-siteyi-ayirmam-ile-ilgili.html</loc>
+		<loc>https://huseyinsekmenoglu.net/2010/tasarim-ile-siteyi-ayirmam-ile-ilgili.html</loc>
 		<lastmod>2017-01-29T19:32:06+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://wp.huseyinsekmenoglu.net/2010/farkli-sitelerden-bilgi-alis-verisi-ile-ilgili.html</loc>
+		<loc>https://huseyinsekmenoglu.net/2010/farkli-sitelerden-bilgi-alis-verisi-ile-ilgili.html</loc>
 		<lastmod>2017-01-29T19:33:07+00:00</lastmod>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/cross1.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/cross1.png</image:loc>
 			<image:title><![CDATA[Farklı sitelerden bilgi alış verişi ile ilgili - 1]]></image:title>
 			<image:caption><![CDATA[Farklı sitelerden bilgi alış verişi ile ilgili - 1]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/cross1.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/cross1.png</image:loc>
 			<image:title><![CDATA[Farklı sitelerden bilgi alış verişi ile ilgili - 1]]></image:title>
 			<image:caption><![CDATA[Farklı sitelerden bilgi alış verişi ile ilgili - 1]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/cross2.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/cross2.png</image:loc>
 			<image:title><![CDATA[Farklı sitelerden bilgi alış verişi ile ilgili - 2]]></image:title>
 			<image:caption><![CDATA[Farklı sitelerden bilgi alış verişi ile ilgili - 2]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/mac-isp.jpg</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/mac-isp.jpg</image:loc>
 			<image:title><![CDATA[mackosova.com ve ispkosova.com sitelerinden gelen bilgiler]]></image:title>
 			<image:caption><![CDATA[mackosova.com ve ispkosova.com sitelerinden gelen bilgiler]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://wp.huseyinsekmenoglu.net/2010/virtual-villagers-ve-bendeki-etkileri.html</loc>
+		<loc>https://huseyinsekmenoglu.net/2010/virtual-villagers-ve-bendeki-etkileri.html</loc>
 		<lastmod>2017-01-29T19:33:12+00:00</lastmod>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/virtual-villlagers.jpg</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/virtual-villlagers.jpg</image:loc>
 			<image:title><![CDATA[Virtual Villlagers bulmaca ekranı]]></image:title>
 			<image:caption><![CDATA[Virtual Villlagers bulmaca ekranı]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/Turkce.zip</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/Turkce.zip</image:loc>
 			<image:title><![CDATA[virtual-villlagers]]></image:title>
 			<image:caption><![CDATA[virtual-villlagers]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://wp.huseyinsekmenoglu.net/2010/flow-player-kullanarak-sitede-video-oynatma.html</loc>
+		<loc>https://huseyinsekmenoglu.net/2010/flow-player-kullanarak-sitede-video-oynatma.html</loc>
 		<lastmod>2017-01-29T19:36:32+00:00</lastmod>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/flowplayer.jpg</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/flowplayer.jpg</image:loc>
 			<image:title><![CDATA[flowplayer]]></image:title>
 			<image:caption><![CDATA[flowplayer]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/flowplayer.jpg</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/flowplayer.jpg</image:loc>
 			<image:caption><![CDATA[flowplayer]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://wp.huseyinsekmenoglu.net/2010/asp-ile-sitenize-video-album-ekleme.html</loc>
+		<loc>https://huseyinsekmenoglu.net/2010/asp-ile-sitenize-video-album-ekleme.html</loc>
 		<lastmod>2017-01-29T19:37:08+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://wp.huseyinsekmenoglu.net/2010/bilgisayarimi-tamir-ettim.html</loc>
+		<loc>https://huseyinsekmenoglu.net/2010/bilgisayarimi-tamir-ettim.html</loc>
 		<lastmod>2017-01-29T19:37:35+00:00</lastmod>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/msi-mega-notebook-s260.jpg</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/msi-mega-notebook-s260.jpg</image:loc>
 			<image:title><![CDATA[msi mega notebook s260 gri]]></image:title>
 			<image:caption><![CDATA[msi mega notebook s260 gri]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/msi-mega-notebook-s260.jpg</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/msi-mega-notebook-s260.jpg</image:loc>
 			<image:title><![CDATA[msi mega notebook s260 gri]]></image:title>
 			<image:caption><![CDATA[msi mega notebook s260 gri]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://wp.huseyinsekmenoglu.net/2011/siteye-video-album-ekleme-2.html</loc>
+		<loc>https://huseyinsekmenoglu.net/2011/siteye-video-album-ekleme-2.html</loc>
 		<lastmod>2017-01-29T19:40:10+00:00</lastmod>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/video-album-2-file-list.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/video-album-2-file-list.png</image:loc>
 			<image:title><![CDATA[Siteye Video Albüm Ekleme – dosya sırası]]></image:title>
 			<image:caption><![CDATA[Siteye Video Albüm Ekleme – dosya sırası]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/video-album-2-file-list.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/video-album-2-file-list.png</image:loc>
 			<image:title><![CDATA[Siteye Video Albüm Ekleme – dosya sırası]]></image:title>
 			<image:caption><![CDATA[Siteye Video Albüm Ekleme – dosya sırası]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://wp.huseyinsekmenoglu.net/2011/siteye-youtube-kullanarak-video-album-olusturma.html</loc>
+		<loc>https://huseyinsekmenoglu.net/2011/siteye-youtube-kullanarak-video-album-olusturma.html</loc>
 		<lastmod>2017-01-29T19:41:41+00:00</lastmod>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/video-album-table.jpg</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/video-album-table.jpg</image:loc>
 			<image:title><![CDATA[Youtube bilgilerini barındıran video albüm tablosu]]></image:title>
 			<image:caption><![CDATA[Youtube bilgilerini barındıran video albüm tablosu]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/video-album-table.jpg</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/video-album-table.jpg</image:loc>
 			<image:title><![CDATA[Youtube bilgilerini barındıran video albüm tablosu]]></image:title>
 			<image:caption><![CDATA[Youtube bilgilerini barındıran video albüm tablosu]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://wp.huseyinsekmenoglu.net/2011/voip-programlari-turkce-yamasi.html</loc>
+		<loc>https://huseyinsekmenoglu.net/2011/voip-programlari-turkce-yamasi.html</loc>
 		<lastmod>2017-01-29T19:43:22+00:00</lastmod>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/voip.gif</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/voip.gif</image:loc>
 			<image:title><![CDATA[Voice over IP - internetten konuşma]]></image:title>
 			<image:caption><![CDATA[Voice over IP - internetten konuşma]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/voip.gif</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/voip.gif</image:loc>
 			<image:title><![CDATA[Voice over IP - internetten konuşma]]></image:title>
 			<image:caption><![CDATA[Voice over IP - internetten konuşma]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://wp.huseyinsekmenoglu.net/2011/internet-yazarinin-davranis-kurali-bloggers-code-of-conduct.html</loc>
+		<loc>https://huseyinsekmenoglu.net/2011/internet-yazarinin-davranis-kurali-bloggers-code-of-conduct.html</loc>
 		<lastmod>2017-01-29T19:43:43+00:00</lastmod>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/code-of-conduct-a.jpg</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/code-of-conduct-a.jpg</image:loc>
 			<image:title><![CDATA[İnternet yazarının davranış kuralı]]></image:title>
 			<image:caption><![CDATA[İnternet yazarının davranış kuralı]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://wp.huseyinsekmenoglu.net/2011/askerlikten-ogrendiklerim.html</loc>
+		<loc>https://huseyinsekmenoglu.net/2011/askerlikten-ogrendiklerim.html</loc>
 		<lastmod>2017-01-29T19:44:22+00:00</lastmod>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/dovizli-askerlik-hatirasi.jpg</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/dovizli-askerlik-hatirasi.jpg</image:loc>
 			<image:title><![CDATA[Dövizli Askerlik Hizmetine Tabii ER]]></image:title>
 			<image:caption><![CDATA[Dövizli Askerlik Hizmetine Tabii ER]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/dovizli-askerlik-hatirasi.jpg</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/dovizli-askerlik-hatirasi.jpg</image:loc>
 			<image:title><![CDATA[Dövizli Askerlik Hizmetine Tabii ER]]></image:title>
 			<image:caption><![CDATA[Dövizli Askerlik Hizmetine Tabii ER]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://wp.huseyinsekmenoglu.net/2011/kullandigim-jquery-eklentileri.html</loc>
+		<loc>https://huseyinsekmenoglu.net/2011/kullandigim-jquery-eklentileri.html</loc>
 		<lastmod>2017-01-29T19:50:34+00:00</lastmod>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/wall_e_poster_disney.jpg</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/wall_e_poster_disney.jpg</image:loc>
 			<image:title><![CDATA[Wal-E, dünyanın en gelişmiş robotu]]></image:title>
 			<image:caption><![CDATA[Wal-E, dünyanın en gelişmiş robotu]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/wall_e_poster_disney.jpg</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/wall_e_poster_disney.jpg</image:loc>
 			<image:title><![CDATA[Wal-E, dünyanın en gelişmiş robotu]]></image:title>
 			<image:caption><![CDATA[Wal-E, dünyanın en gelişmiş robotu]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/wall_e40.jpg</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/wall_e40.jpg</image:loc>
 			<image:title><![CDATA[Wall-e ve Eve]]></image:title>
 			<image:caption><![CDATA[Wall-e ve Eve]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://wp.huseyinsekmenoglu.net/2012/iis-6-0da-php-calistirmamla-alakali.html</loc>
+		<loc>https://huseyinsekmenoglu.net/2012/iis-6-0da-php-calistirmamla-alakali.html</loc>
 		<lastmod>2017-01-29T19:51:25+00:00</lastmod>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/php-web-application-development.jpg</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/php-web-application-development.jpg</image:loc>
 			<image:title><![CDATA[PHP WEB Uygulamaları]]></image:title>
 			<image:caption><![CDATA[PHP WEB Uygulamaları]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/php-web-application-development.jpg</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/php-web-application-development.jpg</image:loc>
 			<image:title><![CDATA[PHP WEB Uygulamaları]]></image:title>
 			<image:caption><![CDATA[PHP WEB Uygulamaları]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://wp.huseyinsekmenoglu.net/2012/kariyer-net-d-i-s-c-kisilik-envanterim-ozet-paragrafi.html</loc>
+		<loc>https://huseyinsekmenoglu.net/2012/kariyer-net-d-i-s-c-kisilik-envanterim-ozet-paragrafi.html</loc>
 		<lastmod>2017-01-29T19:51:51+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://wp.huseyinsekmenoglu.net/2012/php-ile-wordpress-arsiv-sayfasi-olusturma.html</loc>
+		<loc>https://huseyinsekmenoglu.net/2012/php-ile-wordpress-arsiv-sayfasi-olusturma.html</loc>
 		<lastmod>2017-01-29T19:53:10+00:00</lastmod>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/arsiv-sayfasi.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/arsiv-sayfasi.png</image:loc>
 			<image:title><![CDATA[Arşiv Sayfası]]></image:title>
 			<image:caption><![CDATA[Arşiv Sayfası]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://wp.huseyinsekmenoglu.net/2012/mozaik-resim-nasil-kolayca-yapilir.html</loc>
+		<loc>https://huseyinsekmenoglu.net/2012/mozaik-resim-nasil-kolayca-yapilir.html</loc>
 		<lastmod>2017-01-29T19:55:12+00:00</lastmod>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/mehmet-akif-koleji-mozaik.jpg</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/mehmet-akif-koleji-mozaik.jpg</image:loc>
 			<image:title><![CDATA[Mehmet Akif Koleji mozaik resmi]]></image:title>
 			<image:caption><![CDATA[Mehmet Akif Koleji mozaik resmi]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/mehmet-akif-koleji-mozaik.jpg</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/mehmet-akif-koleji-mozaik.jpg</image:loc>
 			<image:title><![CDATA[Mehmet Akif Koleji mozaik resmi]]></image:title>
 			<image:caption><![CDATA[Mehmet Akif Koleji mozaik resmi]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/andrea-mosaic-giris.jpg</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/andrea-mosaic-giris.jpg</image:loc>
 			<image:title><![CDATA[Andrea Mosaic - giris]]></image:title>
 			<image:caption><![CDATA[Andrea Mosaic programı girişi]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/andrea-mosaic-anasayfa.jpg</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/andrea-mosaic-anasayfa.jpg</image:loc>
 			<image:title><![CDATA[Andrea Mosaic - anasayfa]]></image:title>
 			<image:caption><![CDATA[Andrea Mosaic programı anasayfası]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/andrea-mosaic-ayarlar.jpg</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/andrea-mosaic-ayarlar.jpg</image:loc>
 			<image:title><![CDATA[Andrea Mosaic - ayarlar]]></image:title>
 			<image:caption><![CDATA[Andrea Mosaic programı ayarlarları]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://wp.huseyinsekmenoglu.net/2012/toplu-dosya-ismi-nasil-degistirilir.html</loc>
+		<loc>https://huseyinsekmenoglu.net/2012/toplu-dosya-ismi-nasil-degistirilir.html</loc>
 		<lastmod>2017-01-29T19:55:36+00:00</lastmod>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/Bulk-Rename-Utility.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/Bulk-Rename-Utility.png</image:loc>
 			<image:title><![CDATA[Bulk Rename Utility]]></image:title>
 			<image:caption><![CDATA[Bulk Rename Utility]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/Bulk-Rename-Utility.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/Bulk-Rename-Utility.png</image:loc>
 			<image:title><![CDATA[Bulk Rename Utility]]></image:title>
 			<image:caption><![CDATA[Bulk Rename Utility]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://wp.huseyinsekmenoglu.net/2012/flashta-kitap-efektli-animasyon-hazirlama.html</loc>
+		<loc>https://huseyinsekmenoglu.net/2012/flashta-kitap-efektli-animasyon-hazirlama.html</loc>
 		<lastmod>2017-01-29T19:56:04+00:00</lastmod>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/Kitap-efektli-animasyon.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/Kitap-efektli-animasyon.png</image:loc>
 			<image:title><![CDATA[Kitap efektli animasyon]]></image:title>
 			<image:caption><![CDATA[Kitap efektli animasyon]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/Kitap-efektli-animasyon.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/Kitap-efektli-animasyon.png</image:loc>
 			<image:title><![CDATA[Kitap efektli animasyon]]></image:title>
 			<image:caption><![CDATA[Kitap efektli animasyon]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/jalbum.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/jalbum.png</image:loc>
 			<image:title><![CDATA[jalbum]]></image:title>
 			<image:caption><![CDATA[jalbum]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://wp.huseyinsekmenoglu.net/2012/bedavaya-web-sitesi-sahibi-olmak-istemez-misiniz.html</loc>
+		<loc>https://huseyinsekmenoglu.net/2012/bedavaya-web-sitesi-sahibi-olmak-istemez-misiniz.html</loc>
 		<lastmod>2017-01-29T19:57:56+00:00</lastmod>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/Smartdots-URL-Forwarding.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/Smartdots-URL-Forwarding.png</image:loc>
 			<image:title><![CDATA[Smartdots URL Forwarding]]></image:title>
 			<image:caption><![CDATA[Smartdots URL Forwarding]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/Wordpress-Yonetim-Paneli.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/Wordpress-Yonetim-Paneli.png</image:loc>
 			<image:caption><![CDATA[Wordpress Yönetim Paneli]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://wp.huseyinsekmenoglu.net/2012/bir-cv-nasil-hazirlanir.html</loc>
+		<loc>https://huseyinsekmenoglu.net/2012/bir-cv-nasil-hazirlanir.html</loc>
 		<lastmod>2017-01-29T19:58:11+00:00</lastmod>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/Ozgecmis.jpg</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/Ozgecmis.jpg</image:loc>
 			<image:title><![CDATA[Özgeçmiş]]></image:title>
 			<image:caption><![CDATA[Özgeçmiş]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/Ozgecmis.jpg</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/Ozgecmis.jpg</image:loc>
 			<image:title><![CDATA[Özgeçmiş]]></image:title>
 			<image:caption><![CDATA[Özgeçmiş]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://wp.huseyinsekmenoglu.net/2012/accessden-mssqle-veritabani-donusturme-islemleri.html</loc>
+		<loc>https://huseyinsekmenoglu.net/2012/accessden-mssqle-veritabani-donusturme-islemleri.html</loc>
 		<lastmod>2017-01-29T19:58:32+00:00</lastmod>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/Access-to-SQL.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/Access-to-SQL.png</image:loc>
 			<image:title><![CDATA[Access to SQL]]></image:title>
 			<image:caption><![CDATA[Access to SQL]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/Gulistan-Okul-Otomasyon.jpg</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/Gulistan-Okul-Otomasyon.jpg</image:loc>
 			<image:caption><![CDATA[Gulistan-Okul-Otomasyon]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/Access-to-SQL.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/Access-to-SQL.png</image:loc>
 			<image:caption><![CDATA[Access to SQL]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://wp.huseyinsekmenoglu.net/2012/balikesirin-buyuksehir-olmasi-serefine.html</loc>
+		<loc>https://huseyinsekmenoglu.net/2012/balikesirin-buyuksehir-olmasi-serefine.html</loc>
 		<lastmod>2017-01-29T19:58:50+00:00</lastmod>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/balikesir.jpg</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/balikesir.jpg</image:loc>
 			<image:title><![CDATA[Balıkesir]]></image:title>
 			<image:caption><![CDATA[Balıkesir]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/balikesir.jpg</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/balikesir.jpg</image:loc>
 			<image:title><![CDATA[Balıkesir]]></image:title>
 			<image:caption><![CDATA[Balıkesir]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://wp.huseyinsekmenoglu.net/2012/vb-net-ile-mssql-baglantisi.html</loc>
+		<loc>https://huseyinsekmenoglu.net/2012/vb-net-ile-mssql-baglantisi.html</loc>
 		<lastmod>2017-01-29T19:59:18+00:00</lastmod>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/sql-server.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/sql-server.png</image:loc>
 			<image:title><![CDATA[SQL Server Logo]]></image:title>
 			<image:caption><![CDATA[SQL Server Logo]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/sql-server.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/sql-server.png</image:loc>
 			<image:title><![CDATA[SQL Server Logo]]></image:title>
 			<image:caption><![CDATA[SQL Server Logo]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://wp.huseyinsekmenoglu.net/2012/windows-8-uygulama-gelistirme-yarismasi-ve-acik-akademi-uzerine.html</loc>
+		<loc>https://huseyinsekmenoglu.net/2012/windows-8-uygulama-gelistirme-yarismasi-ve-acik-akademi-uzerine.html</loc>
 		<lastmod>2017-01-29T19:59:43+00:00</lastmod>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/AcikAkademiBasvuruIlani.jpg</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/AcikAkademiBasvuruIlani.jpg</image:loc>
 			<image:title><![CDATA[Açık Akademi Başvuru İlanı]]></image:title>
 			<image:caption><![CDATA[Açık Akademi Başvuru İlanı]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/AcikAkademiBasvuruIlani.jpg</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/AcikAkademiBasvuruIlani.jpg</image:loc>
 			<image:caption><![CDATA[Açık Akademi Başvuru İlanı]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://wp.huseyinsekmenoglu.net/2013/flowplayer-oynaticisi-entegre-etme-ve-video-oynatma.html</loc>
+		<loc>https://huseyinsekmenoglu.net/2013/flowplayer-oynaticisi-entegre-etme-ve-video-oynatma.html</loc>
 		<lastmod>2017-01-29T20:00:32+00:00</lastmod>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/FlowPlayer.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/FlowPlayer.png</image:loc>
 			<image:title><![CDATA[FlowPlayer]]></image:title>
 			<image:caption><![CDATA[FlowPlayer]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/FlowPlayer.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/FlowPlayer.png</image:loc>
 			<image:caption><![CDATA[FlowPlayer]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/flowplayer-skins.jpg</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/flowplayer-skins.jpg</image:loc>
 			<image:caption><![CDATA[FlowPlayer Arayüzleri]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://wp.huseyinsekmenoglu.net/2013/wordpress-ile-arsiv-sayfasi-olusturma.html</loc>
+		<loc>https://huseyinsekmenoglu.net/2013/wordpress-ile-arsiv-sayfasi-olusturma.html</loc>
 		<lastmod>2017-01-29T20:01:05+00:00</lastmod>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/arsiv-sayfasi.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/arsiv-sayfasi.png</image:loc>
 			<image:title><![CDATA[Arşiv Sayfası]]></image:title>
 			<image:caption><![CDATA[Arşiv Sayfası]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/arsiv-sayfasi.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/arsiv-sayfasi.png</image:loc>
 			<image:caption><![CDATA[Arşiv Sayfası]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://wp.huseyinsekmenoglu.net/2013/tcpip-uzerinden-sql-server-2012-baglantisi-nasil-yapilir.html</loc>
+		<loc>https://huseyinsekmenoglu.net/2013/tcpip-uzerinden-sql-server-2012-baglantisi-nasil-yapilir.html</loc>
 		<lastmod>2017-01-29T20:28:38+00:00</lastmod>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/sql-server-2012-facets.jpg</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/sql-server-2012-facets.jpg</image:loc>
 			<image:title><![CDATA[sql server 2012 facets]]></image:title>
 			<image:caption><![CDATA[sql server 2012 facets]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/sql-server-2012-facets.jpg</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/sql-server-2012-facets.jpg</image:loc>
 			<image:caption><![CDATA[sql server 2012 facets]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://wp.huseyinsekmenoglu.net/2013/server-2008-iis7de-ayrintili-hata-bilgisi-gostermek-500-internal-server-error.html</loc>
+		<loc>https://huseyinsekmenoglu.net/2013/server-2008-iis7de-ayrintili-hata-bilgisi-gostermek-500-internal-server-error.html</loc>
 		<lastmod>2017-01-29T20:29:19+00:00</lastmod>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/Server-2008-IIS7-Detailed-Error.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/Server-2008-IIS7-Detailed-Error.png</image:loc>
 			<image:title><![CDATA[Server 2008 IIS7 Detailed Error]]></image:title>
 			<image:caption><![CDATA[Server 2008 IIS7 Detailed Error]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/Server-2008-IIS7-500-Internal-Server-Error.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/Server-2008-IIS7-500-Internal-Server-Error.png</image:loc>
 			<image:caption><![CDATA[Server 2008 IIS7 500 Internal Server Error]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/Server-2008-IIS7-ASP-Settings.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/Server-2008-IIS7-ASP-Settings.png</image:loc>
 			<image:caption><![CDATA[Server 2008 IIS7 ASP Settings]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/Server-2008-IIS7-Error-Pages.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/Server-2008-IIS7-Error-Pages.png</image:loc>
 			<image:caption><![CDATA[Server 2008 IIS7 Error Pages]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/Server-2008-IIS7-Detailed-Error.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/Server-2008-IIS7-Detailed-Error.png</image:loc>
 			<image:caption><![CDATA[Server 2008 IIS7 Detailed Error]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://wp.huseyinsekmenoglu.net/2013/mssql-2012de-gunluk-yedek-nasil-alinir.html</loc>
+		<loc>https://huseyinsekmenoglu.net/2013/mssql-2012de-gunluk-yedek-nasil-alinir.html</loc>
 		<lastmod>2017-01-29T20:31:01+00:00</lastmod>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/MSSQL-Backup-Folder.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/MSSQL-Backup-Folder.png</image:loc>
 			<image:title><![CDATA[MSSQL Backup Folder]]></image:title>
 			<image:caption><![CDATA[MSSQL Backup Folder]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/MSSQL-Backup-Folder.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/MSSQL-Backup-Folder.png</image:loc>
 			<image:caption><![CDATA[MSSQL Backup Folder]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/Task-Scheduler-Library.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/Task-Scheduler-Library.png</image:loc>
 			<image:caption><![CDATA[Task Scheduler Library]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/Create-Basic-Task-Wizard.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/Create-Basic-Task-Wizard.png</image:loc>
 			<image:caption><![CDATA[Create Basic Task Wizard]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://wp.huseyinsekmenoglu.net/2013/htmlde-resim-adreslerini-gizlemenin-kolay-yolu.html</loc>
+		<loc>https://huseyinsekmenoglu.net/2013/htmlde-resim-adreslerini-gizlemenin-kolay-yolu.html</loc>
 		<lastmod>2017-01-29T20:31:17+00:00</lastmod>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/flowplayer-skins.jpg</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/flowplayer-skins.jpg</image:loc>
 			<image:title><![CDATA[FlowPlayer Arayüzleri]]></image:title>
 			<image:caption><![CDATA[FlowPlayer Arayüzleri]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://wp.huseyinsekmenoglu.net/2013/sunucunun-calisma-zamanini-server-uptime-asp-ile-gosterme.html</loc>
+		<loc>https://huseyinsekmenoglu.net/2013/sunucunun-calisma-zamanini-server-uptime-asp-ile-gosterme.html</loc>
 		<lastmod>2017-01-29T20:31:46+00:00</lastmod>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/server-uptime.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/server-uptime.png</image:loc>
 			<image:title><![CDATA[Sunucu Çalışma Zamanı]]></image:title>
 			<image:caption><![CDATA[Sunucu Çalışma Zamanı]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/server-uptime.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/server-uptime.png</image:loc>
 			<image:caption><![CDATA[Sunucu Çalışma Zamanı]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://wp.huseyinsekmenoglu.net/2013/windows-serverda-mysql-sifresi-degistirme.html</loc>
+		<loc>https://huseyinsekmenoglu.net/2013/windows-serverda-mysql-sifresi-degistirme.html</loc>
 		<lastmod>2017-01-29T20:32:04+00:00</lastmod>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/MySQL-Workbench.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/MySQL-Workbench.png</image:loc>
 			<image:title><![CDATA[MySQL Workbench]]></image:title>
 			<image:caption><![CDATA[MySQL Workbench]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/MySQL-Workbench.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/MySQL-Workbench.png</image:loc>
 			<image:caption><![CDATA[MySQL Workbench]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://wp.huseyinsekmenoglu.net/2013/windows-serverda-wordpress-permalinks-kullanimi.html</loc>
+		<loc>https://huseyinsekmenoglu.net/2013/windows-serverda-wordpress-permalinks-kullanimi.html</loc>
 		<lastmod>2017-01-29T20:32:17+00:00</lastmod>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/wordpress-multisite.jpg</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/wordpress-multisite.jpg</image:loc>
 			<image:title><![CDATA[wordpress multisite]]></image:title>
 			<image:caption><![CDATA[wordpress multisite]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://wp.huseyinsekmenoglu.net/2013/wordpress-arsiv-sayfasi-olusturmanin-kolay-yolu.html</loc>
+		<loc>https://huseyinsekmenoglu.net/2013/wordpress-arsiv-sayfasi-olusturmanin-kolay-yolu.html</loc>
 		<lastmod>2017-01-29T20:32:45+00:00</lastmod>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/wordpress-arsiv-sayfasi.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/wordpress-arsiv-sayfasi.png</image:loc>
 			<image:title><![CDATA[Wordpress Arşiv Sayfası]]></image:title>
 			<image:caption><![CDATA[Wordpress Arşiv Sayfası]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/wordpress-arsiv-sayfasi.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/wordpress-arsiv-sayfasi.png</image:loc>
 			<image:caption><![CDATA[Wordpress Arşiv Sayfası]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://wp.huseyinsekmenoglu.net/2013/bing-resimlerini-web-sitemizde-nasil-kullaniriz.html</loc>
+		<loc>https://huseyinsekmenoglu.net/2013/bing-resimlerini-web-sitemizde-nasil-kullaniriz.html</loc>
 		<lastmod>2017-01-29T20:33:10+00:00</lastmod>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/GYP.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/GYP.png</image:loc>
 			<image:title><![CDATA[GYP Anasayfası]]></image:title>
 			<image:caption><![CDATA[GYP Anasayfası]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/GYP.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/GYP.png</image:loc>
 			<image:caption><![CDATA[GYP Anasayfası]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/BING.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/BING.png</image:loc>
 			<image:caption><![CDATA[BING Anasayfası]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://wp.huseyinsekmenoglu.net/2013/vb-net-ile-txt-dosyasina-yazip-access-ile-ayni-dosyayi-okuma-nasil-yapilir.html</loc>
+		<loc>https://huseyinsekmenoglu.net/2013/vb-net-ile-txt-dosyasina-yazip-access-ile-ayni-dosyayi-okuma-nasil-yapilir.html</loc>
 		<lastmod>2017-01-29T20:33:31+00:00</lastmod>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/video-album-table.jpg</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/video-album-table.jpg</image:loc>
 			<image:title><![CDATA[Youtube bilgilerini barındıran video albüm tablosu]]></image:title>
 			<image:caption><![CDATA[Youtube bilgilerini barındıran video albüm tablosu]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/GOO-idari-isler-Sertifika-Basimi.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/GOO-idari-isler-Sertifika-Basimi.png</image:loc>
 			<image:caption><![CDATA[GOO-idari-isler-Sertifika-Basimi]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://wp.huseyinsekmenoglu.net/2014/windows-server-2012-uzerinde-mysql-tablolarini-otomatik-yedekleme.html</loc>
+		<loc>https://huseyinsekmenoglu.net/2014/windows-server-2012-uzerinde-mysql-tablolarini-otomatik-yedekleme.html</loc>
 		<lastmod>2017-01-29T20:33:45+00:00</lastmod>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/sql-server.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/sql-server.png</image:loc>
 			<image:title><![CDATA[SQL Server Logo]]></image:title>
 			<image:caption><![CDATA[SQL Server Logo]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/MySQL-Backup-Folder.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/MySQL-Backup-Folder.png</image:loc>
 			<image:caption><![CDATA[MySQL Backup Folder]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://wp.huseyinsekmenoglu.net/2014/wordpress-multisite-neden-kullanilmamali.html</loc>
+		<loc>https://huseyinsekmenoglu.net/2014/wordpress-multisite-neden-kullanilmamali.html</loc>
 		<lastmod>2017-01-29T20:33:59+00:00</lastmod>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/wordpress-multisite.jpg</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/wordpress-multisite.jpg</image:loc>
 			<image:title><![CDATA[wordpress multisite]]></image:title>
 			<image:caption><![CDATA[wordpress multisite]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/wordpress-multisite.jpg</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/wordpress-multisite.jpg</image:loc>
 			<image:caption><![CDATA[wordpress multisite]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://wp.huseyinsekmenoglu.net/2014/flowplayer-oynaticisini-html5-olarak-entegre-etme.html</loc>
+		<loc>https://huseyinsekmenoglu.net/2014/flowplayer-oynaticisini-html5-olarak-entegre-etme.html</loc>
 		<lastmod>2017-01-29T20:34:34+00:00</lastmod>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/FlowPlayer.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/FlowPlayer.png</image:loc>
 			<image:title><![CDATA[FlowPlayer]]></image:title>
 			<image:caption><![CDATA[FlowPlayer]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/FlowPlayer.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/FlowPlayer.png</image:loc>
 			<image:caption><![CDATA[FlowPlayer]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://wp.huseyinsekmenoglu.net/2014/android-programlamaya-baslangic.html</loc>
+		<loc>https://huseyinsekmenoglu.net/2014/android-programlamaya-baslangic.html</loc>
 		<lastmod>2017-01-29T20:35:16+00:00</lastmod>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/android.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/android.png</image:loc>
 			<image:title><![CDATA[android]]></image:title>
 			<image:caption><![CDATA[Android]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/android.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/android.png</image:loc>
 			<image:caption><![CDATA[Android]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://wp.huseyinsekmenoglu.net/2014/net-ile-virus-yazdim.html</loc>
+		<loc>https://huseyinsekmenoglu.net/2014/net-ile-virus-yazdim.html</loc>
 		<lastmod>2017-01-29T20:35:42+00:00</lastmod>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/pc_virus.jpg</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/pc_virus.jpg</image:loc>
 			<image:title><![CDATA[Virüs]]></image:title>
 			<image:caption><![CDATA[Virüs]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/pc_virus.jpg</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/pc_virus.jpg</image:loc>
 			<image:caption><![CDATA[Virüs]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://wp.huseyinsekmenoglu.net/2014/windowsta-dos-oyunlari-calistirmak.html</loc>
+		<loc>https://huseyinsekmenoglu.net/2014/windowsta-dos-oyunlari-calistirmak.html</loc>
 		<lastmod>2017-01-29T20:36:36+00:00</lastmod>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/supaplex.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/supaplex.png</image:loc>
 			<image:title><![CDATA[supaplex]]></image:title>
 			<image:caption><![CDATA[supaplex]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/supaplex.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/supaplex.png</image:loc>
 			<image:caption><![CDATA[supaplex]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/princeofpersia.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/princeofpersia.png</image:loc>
 			<image:caption><![CDATA[prince of persia]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://wp.huseyinsekmenoglu.net/2014/zor-kullanicilar-icin-program-tasarimi-nasil-olmali.html</loc>
+		<loc>https://huseyinsekmenoglu.net/2014/zor-kullanicilar-icin-program-tasarimi-nasil-olmali.html</loc>
 		<lastmod>2017-01-29T20:37:20+00:00</lastmod>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/MysticMicrosoft.jpg</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/MysticMicrosoft.jpg</image:loc>
 			<image:title><![CDATA[Mystic Microsoft]]></image:title>
 			<image:caption><![CDATA[Mystic Microsoft]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/MysticMicrosoft.jpg</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/MysticMicrosoft.jpg</image:loc>
 			<image:caption><![CDATA[Mystic Microsoft]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/ProgramSureci.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/ProgramSureci.png</image:loc>
 			<image:caption><![CDATA[Program Süreci]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://wp.huseyinsekmenoglu.net/2015/2014-nasil-gecti.html</loc>
+		<loc>https://huseyinsekmenoglu.net/2015/2014-nasil-gecti.html</loc>
 		<lastmod>2017-01-29T20:38:25+00:00</lastmod>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/SuratProjects.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/SuratProjects.png</image:loc>
 			<image:title><![CDATA[Sürat .Net Projects]]></image:title>
 			<image:caption><![CDATA[Sürat .Net Projects]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/SuratProjects.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/SuratProjects.png</image:loc>
 			<image:caption><![CDATA[Sürat .Net Projects]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://wp.huseyinsekmenoglu.net/2015/kendi-windows-sunucunuza-visual-studio-icin-git-kurulumu.html</loc>
+		<loc>https://huseyinsekmenoglu.net/2015/kendi-windows-sunucunuza-visual-studio-icin-git-kurulumu.html</loc>
 		<lastmod>2017-01-29T20:38:49+00:00</lastmod>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/github-logo.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/github-logo.png</image:loc>
 			<image:title><![CDATA[GitHub Logo]]></image:title>
 			<image:caption><![CDATA[GitHub Logo]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/github-logo.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/github-logo.png</image:loc>
 			<image:caption><![CDATA[GitHub Logo]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/GitStackRepositories.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/GitStackRepositories.png</image:loc>
 			<image:caption><![CDATA[GitStack Repositories]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://wp.huseyinsekmenoglu.net/2015/telefondan-cektiginiz-videolarin-yonu-nasil-duzeltilir.html</loc>
+		<loc>https://huseyinsekmenoglu.net/2015/telefondan-cektiginiz-videolarin-yonu-nasil-duzeltilir.html</loc>
 		<lastmod>2017-01-29T20:39:15+00:00</lastmod>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/Video-Flip-and-Rotate-2.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/Video-Flip-and-Rotate-2.png</image:loc>
 			<image:title><![CDATA[Video Flip and Rotate 2]]></image:title>
 			<image:caption><![CDATA[Video Flip and Rotate 2]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/Video-Flip-and-Rotate.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/Video-Flip-and-Rotate.png</image:loc>
 			<image:caption><![CDATA[Video Flip and Rotate]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/Video-Flip-and-Rotate-2.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/Video-Flip-and-Rotate-2.png</image:loc>
 			<image:caption><![CDATA[Video Flip and Rotate 2]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://wp.huseyinsekmenoglu.net/2015/sql-sunucunuz-neden-hantal-calisiyor.html</loc>
+		<loc>https://huseyinsekmenoglu.net/2015/sql-sunucunuz-neden-hantal-calisiyor.html</loc>
 		<lastmod>2017-01-29T20:39:39+00:00</lastmod>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/brent-ozar.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/brent-ozar.png</image:loc>
 			<image:title><![CDATA[Brent Ozar]]></image:title>
 			<image:caption><![CDATA[Brent Ozar]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/brent-ozar.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/brent-ozar.png</image:loc>
 			<image:caption><![CDATA[Brent Ozar]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://wp.huseyinsekmenoglu.net/2015/csste-sag-sol-alt-ve-ust-pikselleri-tek-seferde-yazmak.html</loc>
+		<loc>https://huseyinsekmenoglu.net/2015/csste-sag-sol-alt-ve-ust-pikselleri-tek-seferde-yazmak.html</loc>
 		<lastmod>2017-01-29T20:40:03+00:00</lastmod>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/basit_boxmodel.gif</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/basit_boxmodel.gif</image:loc>
 			<image:title><![CDATA[Model]]></image:title>
 			<image:caption><![CDATA[Model]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/basit_boxmodel.gif</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/basit_boxmodel.gif</image:loc>
 			<image:caption><![CDATA[Model]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://wp.huseyinsekmenoglu.net/2008/hakkimda.html</loc>
+		<loc>https://huseyinsekmenoglu.net/2008/hakkimda.html</loc>
 		<lastmod>2017-01-30T02:50:54+00:00</lastmod>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/logo-saydam.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/logo-saydam.png</image:loc>
 			<image:title><![CDATA[Hüseyin Sekmenoğlu]]></image:title>
 			<image:caption><![CDATA[Hüseyin Sekmenoğlu]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/logo-saydam.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/logo-saydam.png</image:loc>
 			<image:title><![CDATA[Hüseyin Sekmenoğlu - dış görünüş - vesikalık]]></image:title>
 			<image:caption><![CDATA[Hüseyin Sekmenoğlu]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://wp.huseyinsekmenoglu.net/2017/yazilimci-haklari-evrensel-bildirgesi.html</loc>
+		<loc>https://huseyinsekmenoglu.net/2017/yazilimci-haklari-evrensel-bildirgesi.html</loc>
 		<lastmod>2017-01-30T17:04:20+00:00</lastmod>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/Universal-Declaration-of-Human-Rights.jpg</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/Universal-Declaration-of-Human-Rights.jpg</image:loc>
 			<image:title><![CDATA[İnsan Hakları Evrensel Beyannamesi]]></image:title>
 			<image:caption><![CDATA[İnsan Hakları Evrensel Beyannamesi]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/Universal-Declaration-of-Human-Rights-683x1024.jpg</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/Universal-Declaration-of-Human-Rights-683x1024.jpg</image:loc>
 			<image:caption><![CDATA[İnsan Hakları Evrensel Beyannamesi ]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://wp.huseyinsekmenoglu.net/2017/gercek-paranoyaklara-guvenlik-ve-gizlilik-ipuclari.html</loc>
+		<loc>https://huseyinsekmenoglu.net/2017/gercek-paranoyaklara-guvenlik-ve-gizlilik-ipuclari.html</loc>
 		<lastmod>2017-01-30T22:16:25+00:00</lastmod>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/Mark-Zuckerberg.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/Mark-Zuckerberg.png</image:loc>
 			<image:title><![CDATA[Mark Zuckerberg]]></image:title>
 			<image:caption><![CDATA[Mark Zuckerberg]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/Mark-Zuckerberg.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/Mark-Zuckerberg.png</image:loc>
 			<image:caption><![CDATA[Mark Zuckerberg]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://wp.huseyinsekmenoglu.net/2017/android-iphonedan-daha-iyi.html</loc>
+		<loc>https://huseyinsekmenoglu.net/2017/android-iphonedan-daha-iyi.html</loc>
 		<lastmod>2017-01-30T22:48:16+00:00</lastmod>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/samsung-notifications.jpg</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/samsung-notifications.jpg</image:loc>
 			<image:title><![CDATA[Samsung Bildirimleri]]></image:title>
 			<image:caption><![CDATA[Samsung Bildirimleri]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/samsung-notifications.jpg</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/samsung-notifications.jpg</image:loc>
 			<image:caption><![CDATA[Samsung Bildirimleri]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://wp.huseyinsekmenoglu.net/2008/bir-nokia-e51-aldim.html</loc>
+		<loc>https://huseyinsekmenoglu.net/2008/bir-nokia-e51-aldim.html</loc>
 		<lastmod>2017-01-31T08:19:44+00:00</lastmod>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/nokia-e51.jpg</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/nokia-e51.jpg</image:loc>
 			<image:title><![CDATA[Nokia E51 siyah]]></image:title>
 			<image:caption><![CDATA[Nokia E51 siyah]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/nokia-e51.jpg</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/nokia-e51.jpg</image:loc>
 			<image:title><![CDATA[Nokia E51 siyah]]></image:title>
 			<image:caption><![CDATA[Nokia E51 siyah]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://wp.huseyinsekmenoglu.net/2008/programlamaya-baslamadan-once.html</loc>
+		<loc>https://huseyinsekmenoglu.net/2008/programlamaya-baslamadan-once.html</loc>
 		<lastmod>2017-01-31T08:19:57+00:00</lastmod>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/programlama.jpg</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/programlama.jpg</image:loc>
 			<image:title><![CDATA[Programlama becerisi ve mantığı]]></image:title>
 			<image:caption><![CDATA[Programlama becerisi ve mantığı]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/programlama.jpg</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/programlama.jpg</image:loc>
 			<image:title><![CDATA[Programlama becerisi ve mantığı]]></image:title>
 			<image:caption><![CDATA[Programlama becerisi ve mantığı]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://wp.huseyinsekmenoglu.net/2011/ispkosova-com-sitesini-yeniledim.html</loc>
+		<loc>https://huseyinsekmenoglu.net/2011/ispkosova-com-sitesini-yeniledim.html</loc>
 		<lastmod>2017-01-31T08:20:38+00:00</lastmod>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/isp-design-new.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/isp-design-new.png</image:loc>
 			<image:title><![CDATA[ispkosova.com yeni tasarım]]></image:title>
 			<image:caption><![CDATA[ispkosova.com yeni tasarım]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/isp-design-old.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/isp-design-old.png</image:loc>
 			<image:title><![CDATA[ispkosova.com eski tasarım]]></image:title>
 			<image:caption><![CDATA[ispkosova.com eski tasarım]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/isp-design-new.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/isp-design-new.png</image:loc>
 			<image:title><![CDATA[ispkosova.com yeni tasarım]]></image:title>
 			<image:caption><![CDATA[ispkosova.com yeni tasarım]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://wp.huseyinsekmenoglu.net/2011/ilk-urun-inceleme-raporum-hp-dc7100-ssf.html</loc>
+		<loc>https://huseyinsekmenoglu.net/2011/ilk-urun-inceleme-raporum-hp-dc7100-ssf.html</loc>
 		<lastmod>2017-01-31T08:20:52+00:00</lastmod>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/hp-compaq-dc7100-ssf.gif</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/hp-compaq-dc7100-ssf.gif</image:loc>
 			<image:title><![CDATA[hp-compaq-dc7100-ssf]]></image:title>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/hp-compaq-dc7100-ssf.gif</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/hp-compaq-dc7100-ssf.gif</image:loc>
 			<image:title><![CDATA[hp-compaq-dc7100-ssf]]></image:title>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://wp.huseyinsekmenoglu.net/2011/huseyinsekmenoglu-net-ve-wordpress-hakkinda.html</loc>
+		<loc>https://huseyinsekmenoglu.net/2011/huseyinsekmenoglu-net-ve-wordpress-hakkinda.html</loc>
 		<lastmod>2017-01-31T08:21:12+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://wp.huseyinsekmenoglu.net/2012/asp-ve-php-icin-benim-tavsiyem-agora-hosting.html</loc>
+		<loc>https://huseyinsekmenoglu.net/2012/asp-ve-php-icin-benim-tavsiyem-agora-hosting.html</loc>
 		<lastmod>2017-01-31T08:21:22+00:00</lastmod>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/agora-movie.jpg</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/agora-movie.jpg</image:loc>
 			<image:title><![CDATA[Agora Movie Poster]]></image:title>
 			<image:caption><![CDATA[Agora Movie Poster]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/agora-movie.jpg</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/agora-movie.jpg</image:loc>
 			<image:title><![CDATA[Agora Movie Poster]]></image:title>
 			<image:caption><![CDATA[Agora Movie Poster]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://wp.huseyinsekmenoglu.net/2017/sitemi-wordpressten-githuba-tasidim.html</loc>
+		<loc>https://huseyinsekmenoglu.net/2017/sitemi-wordpressten-githuba-tasidim.html</loc>
 		<lastmod>2017-01-31T08:44:57+00:00</lastmod>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/github-pages.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/github-pages.png</image:loc>
 			<image:title><![CDATA[Github Pages]]></image:title>
 			<image:caption><![CDATA[Github Pages]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/github-pages.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/github-pages.png</image:loc>
 			<image:caption><![CDATA[Github Pages]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/dns-a-records.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/dns-a-records.png</image:loc>
 			<image:caption><![CDATA[DNS Records]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://wp.huseyinsekmenoglu.net/2012/gmail-uzerinden-asp-ile-mail-gonderme.html</loc>
+		<loc>https://huseyinsekmenoglu.net/2012/gmail-uzerinden-asp-ile-mail-gonderme.html</loc>
 		<lastmod>2017-01-31T08:49:07+00:00</lastmod>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/gmail-new-message.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/gmail-new-message.png</image:loc>
 			<image:title><![CDATA[Yeni Mesaj]]></image:title>
 			<image:caption><![CDATA[Yeni Mesaj]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/gmail-new-message.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/gmail-new-message.png</image:loc>
 			<image:caption><![CDATA[Yeni Mesaj]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://wp.huseyinsekmenoglu.net/2017/lets-encrypt-everything-bedava-ssl-sertifikasi.html</loc>
+		<loc>https://huseyinsekmenoglu.net/2017/lets-encrypt-everything-bedava-ssl-sertifikasi.html</loc>
 		<lastmod>2017-02-01T12:46:09+00:00</lastmod>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/lets-encrypt.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/lets-encrypt.png</image:loc>
 			<image:title><![CDATA[Let’s Encrypt]]></image:title>
 			<image:caption><![CDATA[Let’s Encrypt]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/https-share-top-500k-sites.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/https-share-top-500k-sites.png</image:loc>
 			<image:caption><![CDATA[2016-2017 SSL Kullanım Oranı]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/lets-encrypt.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/lets-encrypt.png</image:loc>
 			<image:caption><![CDATA[Let’s Encrypt]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://wp.huseyinsekmenoglu.net/2017/wordpress-sinir-bozucu.html</loc>
+		<loc>https://huseyinsekmenoglu.net/2017/wordpress-sinir-bozucu.html</loc>
 		<lastmod>2017-02-01T14:14:14+00:00</lastmod>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/WordPress-Admin-Area.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/WordPress-Admin-Area.png</image:loc>
 			<image:title><![CDATA[WordPress Admin]]></image:title>
 			<image:caption><![CDATA[WordPress Admin]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/WordPress-Admin-Area.png</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/WordPress-Admin-Area.png</image:loc>
 			<image:caption><![CDATA[WordPress Admin]]></image:caption>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://wp.huseyinsekmenoglu.net/2017/telefonunuzun-viruslu-oldugunu-nasil-anlarsiniz.html</loc>
-		<lastmod>2017-02-02T08:51:54+00:00</lastmod>
+		<loc>https://huseyinsekmenoglu.net/2017/telefonunuzun-viruslu-oldugunu-nasil-anlarsiniz.html</loc>
+		<lastmod>2017-02-02T10:26:56+00:00</lastmod>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/Android-Vir%C3%BCs.jpg</image:loc>
-			<image:title><![CDATA[Android Virüs]]></image:title>
-			<image:caption><![CDATA[Android Virüs]]></image:caption>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/Android-Virus.jpg</image:loc>
+			<image:title><![CDATA[Android Virus]]></image:title>
+			<image:caption><![CDATA[Android Virus]]></image:caption>
 		</image:image>
 		<image:image>
-			<image:loc>https://wp.huseyinsekmenoglu.net/wp-content/uploads/Android-Vir%C3%BCs.jpg</image:loc>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/Android-Virus.jpg</image:loc>
 			<image:caption><![CDATA[Android Virüs]]></image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://huseyinsekmenoglu.net/2017/bir-programcinin-en-iyi-20-bahanesi.html</loc>
+		<lastmod>2017-02-03T16:34:51+00:00</lastmod>
+		<image:image>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/Programmers.jpg</image:loc>
+			<image:title><![CDATA[Programmers]]></image:title>
+			<image:caption><![CDATA[Programmers]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/Programmers.jpg</image:loc>
+			<image:caption><![CDATA[Programmers]]></image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://huseyinsekmenoglu.net/2017/footer-her-zaman-sayfanin-altinda-kalsin.html</loc>
+		<lastmod>2017-02-04T18:19:24+00:00</lastmod>
+		<image:image>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/html.png</image:loc>
+			<image:title><![CDATA[HTML]]></image:title>
+			<image:caption><![CDATA[HTML]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/html.png</image:loc>
+			<image:caption><![CDATA[HTML]]></image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://huseyinsekmenoglu.net/2017/yazilimci-fazla-mesai-yapar.html</loc>
+		<lastmod>2017-02-04T18:22:08+00:00</lastmod>
+		<image:image>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/zaman-kontrol.jpg</image:loc>
+			<image:title><![CDATA[Zaman Kontrolü]]></image:title>
+			<image:caption><![CDATA[Zaman Kontrolü]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/zaman-kontrol.jpg</image:loc>
+			<image:caption><![CDATA[Zaman Kontrolü]]></image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://huseyinsekmenoglu.net/2017/isin-bitirme-tarihi-yaklastiysa-size-15-oneri.html</loc>
+		<lastmod>2017-02-04T18:26:57+00:00</lastmod>
+		<image:image>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/Times-up.jpg</image:loc>
+			<image:title><![CDATA[Zaman Doluyor]]></image:title>
+			<image:caption><![CDATA[Zaman Doluyor]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/Times-up.jpg</image:loc>
+			<image:caption><![CDATA[Zaman Doluyor]]></image:caption>
 		</image:image>
 	</url>
 </urlset>
