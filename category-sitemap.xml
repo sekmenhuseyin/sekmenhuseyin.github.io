@@ -1,47 +1,47 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//wp.huseyinsekmenoglu.net/main-sitemap.xsl"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//huseyinsekmenoglu.net/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>http://huseyinsekmenoglu.net/category/benden</loc>
-		<lastmod>2017-01-31T08:21:12+00:00</lastmod>
+		<loc>https://huseyinsekmenoglu.net/category/benden</loc>
+		<lastmod>2018-03-02T08:40:53+00:00</lastmod>
 	</url>
 	<url>
-		<loc>http://huseyinsekmenoglu.net/category/cozum</loc>
-		<lastmod>2017-01-31T08:49:07+00:00</lastmod>
+		<loc>https://huseyinsekmenoglu.net/category/cozum</loc>
+		<lastmod>2018-03-20T06:25:37+00:00</lastmod>
 	</url>
 	<url>
-		<loc>http://huseyinsekmenoglu.net/category/egitim</loc>
-		<lastmod>2017-01-29T20:40:03+00:00</lastmod>
+		<loc>https://huseyinsekmenoglu.net/category/egitim</loc>
+		<lastmod>2018-03-20T06:25:37+00:00</lastmod>
 	</url>
 	<url>
-		<loc>http://huseyinsekmenoglu.net/category/guvenlik</loc>
-		<lastmod>2017-01-30T22:16:25+00:00</lastmod>
+		<loc>https://huseyinsekmenoglu.net/category/guvenlik</loc>
+		<lastmod>2017-02-02T10:26:56+00:00</lastmod>
 	</url>
 	<url>
-		<loc>http://huseyinsekmenoglu.net/category/internet</loc>
-		<lastmod>2017-01-31T08:49:07+00:00</lastmod>
+		<loc>https://huseyinsekmenoglu.net/category/internet</loc>
+		<lastmod>2017-02-01T14:14:14+00:00</lastmod>
 	</url>
 	<url>
-		<loc>http://huseyinsekmenoglu.net/category/oyun</loc>
+		<loc>https://huseyinsekmenoglu.net/category/oyun</loc>
 		<lastmod>2017-01-29T19:33:12+00:00</lastmod>
 	</url>
 	<url>
-		<loc>http://huseyinsekmenoglu.net/category/programlama</loc>
-		<lastmod>2017-01-31T08:49:07+00:00</lastmod>
+		<loc>https://huseyinsekmenoglu.net/category/programlama</loc>
+		<lastmod>2018-03-03T21:52:56+00:00</lastmod>
 	</url>
 	<url>
-		<loc>http://huseyinsekmenoglu.net/category/resim</loc>
+		<loc>https://huseyinsekmenoglu.net/category/resim</loc>
 		<lastmod>2017-01-29T20:31:17+00:00</lastmod>
 	</url>
 	<url>
-		<loc>http://huseyinsekmenoglu.net/category/site-tanitimi</loc>
-		<lastmod>2017-01-31T08:44:57+00:00</lastmod>
+		<loc>https://huseyinsekmenoglu.net/category/site-tanitimi</loc>
+		<lastmod>2017-02-01T12:46:09+00:00</lastmod>
 	</url>
 	<url>
-		<loc>http://huseyinsekmenoglu.net/category/teknoloji</loc>
-		<lastmod>2017-01-31T08:20:52+00:00</lastmod>
+		<loc>https://huseyinsekmenoglu.net/category/teknoloji</loc>
+		<lastmod>2017-02-02T10:26:56+00:00</lastmod>
 	</url>
 	<url>
-		<loc>http://huseyinsekmenoglu.net/category/video</loc>
+		<loc>https://huseyinsekmenoglu.net/category/video</loc>
 		<lastmod>2017-01-29T20:39:15+00:00</lastmod>
 	</url>
 </urlset>

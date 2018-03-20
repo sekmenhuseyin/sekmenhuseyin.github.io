@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//wp.huseyinsekmenoglu.net/main-sitemap.xsl"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//huseyinsekmenoglu.net/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://huseyinsekmenoglu.net/</loc>
 	</url>
@@ -750,19 +750,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://huseyinsekmenoglu.net/2017/yazilimci-haklari-evrensel-bildirgesi.html</loc>
-		<lastmod>2017-01-30T17:04:20+00:00</lastmod>
-		<image:image>
-			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/Universal-Declaration-of-Human-Rights.jpg</image:loc>
-			<image:title><![CDATA[İnsan Hakları Evrensel Beyannamesi]]></image:title>
-			<image:caption><![CDATA[İnsan Hakları Evrensel Beyannamesi]]></image:caption>
-		</image:image>
-		<image:image>
-			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/Universal-Declaration-of-Human-Rights-683x1024.jpg</image:loc>
-			<image:caption><![CDATA[İnsan Hakları Evrensel Beyannamesi ]]></image:caption>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://huseyinsekmenoglu.net/2017/gercek-paranoyaklara-guvenlik-ve-gizlilik-ipuclari.html</loc>
 		<lastmod>2017-01-30T22:16:25+00:00</lastmod>
 		<image:image>
@@ -952,19 +939,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://huseyinsekmenoglu.net/2017/footer-her-zaman-sayfanin-altinda-kalsin.html</loc>
-		<lastmod>2017-02-04T18:19:24+00:00</lastmod>
-		<image:image>
-			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/html.png</image:loc>
-			<image:title><![CDATA[HTML]]></image:title>
-			<image:caption><![CDATA[HTML]]></image:caption>
-		</image:image>
-		<image:image>
-			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/html.png</image:loc>
-			<image:caption><![CDATA[HTML]]></image:caption>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://huseyinsekmenoglu.net/2017/yazilimci-fazla-mesai-yapar.html</loc>
 		<lastmod>2017-02-04T18:22:08+00:00</lastmod>
 		<image:image>
@@ -988,6 +962,101 @@
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/Times-up.jpg</image:loc>
 			<image:caption><![CDATA[Zaman Doluyor]]></image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://huseyinsekmenoglu.net/2017/yazilimci-haklari-evrensel-bildirgesi.html</loc>
+		<lastmod>2018-02-28T07:35:28+00:00</lastmod>
+		<image:image>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/Universal-Declaration-of-Human-Rights.jpg</image:loc>
+			<image:title><![CDATA[İnsan Hakları Evrensel Beyannamesi]]></image:title>
+			<image:caption><![CDATA[İnsan Hakları Evrensel Beyannamesi]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/Universal-Declaration-of-Human-Rights-683x1024.jpg</image:loc>
+			<image:caption><![CDATA[İnsan Hakları Evrensel Beyannamesi ]]></image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://huseyinsekmenoglu.net/2018/my-todoist-year-in-review-2017.html</loc>
+		<lastmod>2018-02-28T07:37:33+00:00</lastmod>
+		<image:image>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/Todoist.png</image:loc>
+			<image:title><![CDATA[Todoist]]></image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/Todoist.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://huseyinsekmenoglu.net/2018/asp-net-mvc-icin-ipuclari.html</loc>
+		<lastmod>2018-03-02T07:39:03+00:00</lastmod>
+		<image:image>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/model-view-controller.jpg</image:loc>
+			<image:title><![CDATA[Model-View-Controller]]></image:title>
+			<image:caption><![CDATA[Model-View-Controller]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/model-view-controller.jpg</image:loc>
+			<image:caption><![CDATA[Model-View-Controller]]></image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://huseyinsekmenoglu.net/2018/programlamanin-en-onemli-sirri.html</loc>
+		<lastmod>2018-03-02T08:40:53+00:00</lastmod>
+		<image:image>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/success-is-a-iceberg.jpg</image:loc>
+			<image:title><![CDATA[success-is-a-iceberg]]></image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/success-is-a-iceberg.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://huseyinsekmenoglu.net/2018/visual-studio-icin-build-events-yazdim-2.html</loc>
+		<lastmod>2018-03-03T21:48:41+00:00</lastmod>
+		<image:image>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/powershell-script-result.png</image:loc>
+			<image:title><![CDATA[powershell-script-result]]></image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/learn-powershell.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/powershell-script-result.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://huseyinsekmenoglu.net/2018/visual-studio-icin-build-events-yazdim.html</loc>
+		<lastmod>2018-03-03T21:50:56+00:00</lastmod>
+		<image:image>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/pre-build-bat.png</image:loc>
+			<image:title><![CDATA[pre-build-bat]]></image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/pre-build-bat.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://huseyinsekmenoglu.net/2017/footer-her-zaman-sayfanin-altinda-kalsin.html</loc>
+		<lastmod>2018-03-03T21:52:56+00:00</lastmod>
+		<image:image>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/html.png</image:loc>
+			<image:title><![CDATA[HTML]]></image:title>
+			<image:caption><![CDATA[HTML]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/html.png</image:loc>
+			<image:caption><![CDATA[HTML]]></image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://huseyinsekmenoglu.net/2018/mdf-dosyasindan-sql-server-versiyonunu-ogrenme.html</loc>
+		<lastmod>2018-03-20T06:25:37+00:00</lastmod>
+		<image:image>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/sql-server.png</image:loc>
+			<image:title><![CDATA[SQL Server Logo]]></image:title>
+			<image:caption><![CDATA[SQL Server Logo]]></image:caption>
 		</image:image>
 	</url>
 </urlset>

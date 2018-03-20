@@ -1,171 +1,187 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//wp.huseyinsekmenoglu.net/main-sitemap.xsl"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//huseyinsekmenoglu.net/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>http://huseyinsekmenoglu.net/tag/access</loc>
+		<loc>https://huseyinsekmenoglu.net/tag/access</loc>
 		<lastmod>2017-01-29T20:33:31+00:00</lastmod>
 	</url>
 	<url>
-		<loc>http://huseyinsekmenoglu.net/tag/ajax</loc>
+		<loc>https://huseyinsekmenoglu.net/tag/ajax</loc>
 		<lastmod>2017-01-29T20:31:46+00:00</lastmod>
 	</url>
 	<url>
-		<loc>http://huseyinsekmenoglu.net/tag/album</loc>
+		<loc>https://huseyinsekmenoglu.net/tag/album</loc>
 		<lastmod>2017-01-29T20:34:34+00:00</lastmod>
 	</url>
 	<url>
-		<loc>http://huseyinsekmenoglu.net/tag/android</loc>
-		<lastmod>2017-01-30T22:48:16+00:00</lastmod>
+		<loc>https://huseyinsekmenoglu.net/tag/android</loc>
+		<lastmod>2017-02-02T10:26:56+00:00</lastmod>
 	</url>
 	<url>
-		<loc>http://huseyinsekmenoglu.net/tag/asp</loc>
+		<loc>https://huseyinsekmenoglu.net/tag/asp</loc>
 		<lastmod>2017-01-31T08:49:07+00:00</lastmod>
 	</url>
 	<url>
-		<loc>http://huseyinsekmenoglu.net/tag/aspx</loc>
+		<loc>https://huseyinsekmenoglu.net/tag/aspx</loc>
 		<lastmod>2017-01-29T20:31:46+00:00</lastmod>
 	</url>
 	<url>
-		<loc>http://huseyinsekmenoglu.net/tag/bilgisayar</loc>
+		<loc>https://huseyinsekmenoglu.net/tag/bilgisayar</loc>
 		<lastmod>2017-01-31T08:21:22+00:00</lastmod>
 	</url>
 	<url>
-		<loc>http://huseyinsekmenoglu.net/tag/blog</loc>
-		<lastmod>2017-01-31T08:44:57+00:00</lastmod>
+		<loc>https://huseyinsekmenoglu.net/tag/blog</loc>
+		<lastmod>2018-02-28T07:35:28+00:00</lastmod>
 	</url>
 	<url>
-		<loc>http://huseyinsekmenoglu.net/tag/cozum</loc>
-		<lastmod>2017-01-31T08:49:07+00:00</lastmod>
+		<loc>https://huseyinsekmenoglu.net/tag/cozum</loc>
+		<lastmod>2018-03-03T21:52:56+00:00</lastmod>
 	</url>
 	<url>
-		<loc>http://huseyinsekmenoglu.net/tag/css</loc>
+		<loc>https://huseyinsekmenoglu.net/tag/css</loc>
 		<lastmod>2017-01-29T20:40:03+00:00</lastmod>
 	</url>
 	<url>
-		<loc>http://huseyinsekmenoglu.net/tag/egitim</loc>
-		<lastmod>2017-01-31T08:49:07+00:00</lastmod>
+		<loc>https://huseyinsekmenoglu.net/tag/egitim</loc>
+		<lastmod>2018-03-03T21:52:56+00:00</lastmod>
 	</url>
 	<url>
-		<loc>http://huseyinsekmenoglu.net/tag/eglence</loc>
+		<loc>https://huseyinsekmenoglu.net/tag/eglence</loc>
 		<lastmod>2017-01-31T08:20:52+00:00</lastmod>
 	</url>
 	<url>
-		<loc>http://huseyinsekmenoglu.net/tag/etik</loc>
+		<loc>https://huseyinsekmenoglu.net/tag/etik</loc>
 		<lastmod>2017-01-29T19:43:43+00:00</lastmod>
 	</url>
 	<url>
-		<loc>http://huseyinsekmenoglu.net/tag/git</loc>
+		<loc>https://huseyinsekmenoglu.net/tag/git</loc>
 		<lastmod>2017-01-31T08:44:57+00:00</lastmod>
 	</url>
 	<url>
-		<loc>http://huseyinsekmenoglu.net/tag/guvenlik</loc>
-		<lastmod>2017-01-30T22:48:16+00:00</lastmod>
+		<loc>https://huseyinsekmenoglu.net/tag/guvenlik</loc>
+		<lastmod>2017-02-02T10:26:56+00:00</lastmod>
 	</url>
 	<url>
-		<loc>http://huseyinsekmenoglu.net/tag/hakkimda</loc>
-		<lastmod>2017-01-31T08:21:12+00:00</lastmod>
+		<loc>https://huseyinsekmenoglu.net/tag/hakkimda</loc>
+		<lastmod>2018-02-28T07:35:28+00:00</lastmod>
 	</url>
 	<url>
-		<loc>http://huseyinsekmenoglu.net/tag/hosting</loc>
-		<lastmod>2017-01-31T08:44:57+00:00</lastmod>
+		<loc>https://huseyinsekmenoglu.net/tag/hosting</loc>
+		<lastmod>2017-02-01T12:46:09+00:00</lastmod>
 	</url>
 	<url>
-		<loc>http://huseyinsekmenoglu.net/tag/html</loc>
-		<lastmod>2017-01-29T20:40:03+00:00</lastmod>
+		<loc>https://huseyinsekmenoglu.net/tag/html</loc>
+		<lastmod>2018-03-03T21:52:56+00:00</lastmod>
 	</url>
 	<url>
-		<loc>http://huseyinsekmenoglu.net/tag/iis</loc>
+		<loc>https://huseyinsekmenoglu.net/tag/iis</loc>
 		<lastmod>2017-01-29T20:39:39+00:00</lastmod>
 	</url>
 	<url>
-		<loc>http://huseyinsekmenoglu.net/tag/internet</loc>
-		<lastmod>2017-01-31T08:49:07+00:00</lastmod>
+		<loc>https://huseyinsekmenoglu.net/tag/internet</loc>
+		<lastmod>2018-02-28T07:35:28+00:00</lastmod>
 	</url>
 	<url>
-		<loc>http://huseyinsekmenoglu.net/tag/iphone</loc>
+		<loc>https://huseyinsekmenoglu.net/tag/iphone</loc>
 		<lastmod>2017-01-30T22:48:16+00:00</lastmod>
 	</url>
 	<url>
-		<loc>http://huseyinsekmenoglu.net/tag/ispkosova</loc>
+		<loc>https://huseyinsekmenoglu.net/tag/ispkosova</loc>
 		<lastmod>2017-01-31T08:20:38+00:00</lastmod>
 	</url>
 	<url>
-		<loc>http://huseyinsekmenoglu.net/tag/javascript</loc>
+		<loc>https://huseyinsekmenoglu.net/tag/javascript</loc>
 		<lastmod>2017-01-29T20:34:34+00:00</lastmod>
 	</url>
 	<url>
-		<loc>http://huseyinsekmenoglu.net/tag/jquery</loc>
+		<loc>https://huseyinsekmenoglu.net/tag/jquery</loc>
 		<lastmod>2017-01-29T20:34:34+00:00</lastmod>
 	</url>
 	<url>
-		<loc>http://huseyinsekmenoglu.net/tag/kariyer</loc>
-		<lastmod>2017-01-30T17:04:20+00:00</lastmod>
+		<loc>https://huseyinsekmenoglu.net/tag/kariyer</loc>
+		<lastmod>2018-03-02T08:40:53+00:00</lastmod>
 	</url>
 	<url>
-		<loc>http://huseyinsekmenoglu.net/tag/microsoft</loc>
+		<loc>https://huseyinsekmenoglu.net/tag/microsoft</loc>
 		<lastmod>2017-01-29T20:39:39+00:00</lastmod>
 	</url>
 	<url>
-		<loc>http://huseyinsekmenoglu.net/tag/mozaik</loc>
+		<loc>https://huseyinsekmenoglu.net/tag/mozaik</loc>
 		<lastmod>2017-01-29T19:55:12+00:00</lastmod>
 	</url>
 	<url>
-		<loc>http://huseyinsekmenoglu.net/tag/mssql</loc>
+		<loc>https://huseyinsekmenoglu.net/tag/mssql</loc>
 		<lastmod>2017-01-29T20:39:39+00:00</lastmod>
 	</url>
 	<url>
-		<loc>http://huseyinsekmenoglu.net/tag/mysql</loc>
+		<loc>https://huseyinsekmenoglu.net/tag/mysql</loc>
 		<lastmod>2017-01-29T20:33:45+00:00</lastmod>
 	</url>
 	<url>
-		<loc>http://huseyinsekmenoglu.net/tag/php</loc>
+		<loc>https://huseyinsekmenoglu.net/tag/php</loc>
 		<lastmod>2017-01-31T08:21:22+00:00</lastmod>
 	</url>
 	<url>
-		<loc>http://huseyinsekmenoglu.net/tag/programlama</loc>
-		<lastmod>2017-01-31T08:49:07+00:00</lastmod>
+		<loc>https://huseyinsekmenoglu.net/tag/powershell</loc>
+		<lastmod>2018-03-03T21:48:41+00:00</lastmod>
 	</url>
 	<url>
-		<loc>http://huseyinsekmenoglu.net/tag/resim</loc>
+		<loc>https://huseyinsekmenoglu.net/tag/programlama</loc>
+		<lastmod>2018-03-03T21:52:56+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://huseyinsekmenoglu.net/tag/resim</loc>
 		<lastmod>2017-01-29T19:55:36+00:00</lastmod>
 	</url>
 	<url>
-		<loc>http://huseyinsekmenoglu.net/tag/server</loc>
+		<loc>https://huseyinsekmenoglu.net/tag/review</loc>
+		<lastmod>2018-02-28T07:37:33+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://huseyinsekmenoglu.net/tag/server</loc>
 		<lastmod>2017-01-31T08:44:57+00:00</lastmod>
 	</url>
 	<url>
-		<loc>http://huseyinsekmenoglu.net/tag/teknoloji_2</loc>
-		<lastmod>2017-01-31T08:20:38+00:00</lastmod>
+		<loc>https://huseyinsekmenoglu.net/tag/teknoloji_2</loc>
+		<lastmod>2017-02-01T12:46:09+00:00</lastmod>
 	</url>
 	<url>
-		<loc>http://huseyinsekmenoglu.net/tag/telefon</loc>
-		<lastmod>2017-01-31T08:19:44+00:00</lastmod>
+		<loc>https://huseyinsekmenoglu.net/tag/telefon</loc>
+		<lastmod>2017-02-02T10:26:56+00:00</lastmod>
 	</url>
 	<url>
-		<loc>http://huseyinsekmenoglu.net/tag/vb-net</loc>
+		<loc>https://huseyinsekmenoglu.net/tag/todoist</loc>
+		<lastmod>2018-02-28T07:37:33+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://huseyinsekmenoglu.net/tag/vb-net</loc>
 		<lastmod>2017-01-29T20:38:49+00:00</lastmod>
 	</url>
 	<url>
-		<loc>http://huseyinsekmenoglu.net/tag/video</loc>
+		<loc>https://huseyinsekmenoglu.net/tag/video</loc>
 		<lastmod>2017-01-29T20:39:15+00:00</lastmod>
 	</url>
 	<url>
-		<loc>http://huseyinsekmenoglu.net/tag/windows</loc>
+		<loc>https://huseyinsekmenoglu.net/tag/visual-studio</loc>
+		<lastmod>2018-03-03T21:50:56+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://huseyinsekmenoglu.net/tag/windows</loc>
 		<lastmod>2017-01-29T20:39:15+00:00</lastmod>
 	</url>
 	<url>
-		<loc>http://huseyinsekmenoglu.net/tag/wordpress</loc>
-		<lastmod>2017-01-31T08:44:57+00:00</lastmod>
+		<loc>https://huseyinsekmenoglu.net/tag/wordpress</loc>
+		<lastmod>2017-02-01T14:14:14+00:00</lastmod>
 	</url>
 	<url>
-		<loc>http://huseyinsekmenoglu.net/tag/yedek</loc>
+		<loc>https://huseyinsekmenoglu.net/tag/yedek</loc>
 		<lastmod>2017-01-29T20:39:39+00:00</lastmod>
 	</url>
 	<url>
-		<loc>http://huseyinsekmenoglu.net/tag/yenilik</loc>
-		<lastmod>2017-01-31T08:44:57+00:00</lastmod>
+		<loc>https://huseyinsekmenoglu.net/tag/yenilik</loc>
+		<lastmod>2017-02-01T12:46:09+00:00</lastmod>
 	</url>
 	<url>
-		<loc>http://huseyinsekmenoglu.net/tag/youtube</loc>
+		<loc>https://huseyinsekmenoglu.net/tag/youtube</loc>
 		<lastmod>2017-01-29T20:34:34+00:00</lastmod>
 	</url>
 </urlset>
