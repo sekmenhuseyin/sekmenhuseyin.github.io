@@ -663,19 +663,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://huseyinsekmenoglu.net/2015/2014-nasil-gecti.html</loc>
-		<lastmod>2017-01-29T20:38:25+00:00</lastmod>
-		<image:image>
-			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/SuratProjects.png</image:loc>
-			<image:title><![CDATA[Sürat .Net Projects]]></image:title>
-			<image:caption><![CDATA[Sürat .Net Projects]]></image:caption>
-		</image:image>
-		<image:image>
-			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/SuratProjects.png</image:loc>
-			<image:caption><![CDATA[Sürat .Net Projects]]></image:caption>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://huseyinsekmenoglu.net/2015/kendi-windows-sunucunuza-visual-studio-icin-git-kurulumu.html</loc>
 		<lastmod>2017-01-29T20:38:49+00:00</lastmod>
 		<image:image>
@@ -1057,6 +1044,36 @@
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/sql-server.png</image:loc>
 			<image:title><![CDATA[SQL Server Logo]]></image:title>
 			<image:caption><![CDATA[SQL Server Logo]]></image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://huseyinsekmenoglu.net/2015/2014-nasil-gecti.html</loc>
+		<lastmod>2018-04-01T11:32:33+01:00</lastmod>
+		<image:image>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/Todoist.png</image:loc>
+			<image:title><![CDATA[Todoist]]></image:title>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://huseyinsekmenoglu.net/2018/yazilim-ekibinin-kalitesi-nasil-degerlendirilir.html</loc>
+		<lastmod>2018-04-16T09:18:51+01:00</lastmod>
+		<image:image>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/git-branch.png</image:loc>
+			<image:title><![CDATA[git branch]]></image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/git-branch.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://huseyinsekmenoglu.net/2018/sitenizi-genel-veri-koruma-yonetmeligine-uygun-hale-getirin.html</loc>
+		<lastmod>2018-04-19T15:02:41+01:00</lastmod>
+		<image:image>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/gdpr.png</image:loc>
+			<image:title><![CDATA[gdpr]]></image:title>
+		</image:image>
+		<image:image>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/gdpr.png</image:loc>
 		</image:image>
 	</url>
 </urlset>
