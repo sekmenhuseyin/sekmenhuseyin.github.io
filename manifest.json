@@ -1,5 +1,6 @@
 {
-    "name": "",
+	"name": "Hüseyin Sekmenoğlu",
+	"short_name": "sekmenhuseyin",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
@@ -12,7 +13,7 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#ffffff",
+    "theme_color": "#7a7a7a",
     "background_color": "#ffffff",
     "display": "standalone"
 }
