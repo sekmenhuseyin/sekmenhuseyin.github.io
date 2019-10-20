@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?xml-stylesheet type="text/xsl" href="https://huseyinsekmenoglu.net/sitemap.xsl"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<sitemap>
+		<loc>https://huseyinsekmenoglu.net/addl-sitemap.xml</loc>
+	</sitemap>
+	<sitemap>
+		<loc>https://huseyinsekmenoglu.net/post-sitemap.xml</loc>
+	</sitemap>
+	<sitemap>
+		<loc>https://huseyinsekmenoglu.net/page-sitemap.xml</loc>
+	</sitemap>
+	<sitemap>
+		<loc>https://huseyinsekmenoglu.net/category-sitemap.xml</loc>
+	</sitemap>
+	<sitemap>
+		<loc>https://huseyinsekmenoglu.net/post_tag-sitemap.xml</loc>
+	</sitemap>
+</sitemapindex>
