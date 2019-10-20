@@ -1,6 +1,5 @@
 .yarpp-thumbnails-horizontal .yarpp-thumbnail, .yarpp-thumbnail-default, .yarpp-thumbnail-title {
 	display: inline-block;
-	*display: inline;
 }
 .yarpp-thumbnails-horizontal .yarpp-thumbnail {
 	border: 1px solid rgba(127,127,127,0.1);
