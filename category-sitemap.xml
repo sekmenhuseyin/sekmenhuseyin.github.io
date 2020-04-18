@@ -1,73 +1,47 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-
-<?xml-stylesheet type="text/xsl" href="https://huseyinsekmenoglu.net/sitemap.xsl"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-	xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//huseyinsekmenoglu.net/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://huseyinsekmenoglu.net/category/benden</loc>
-		<lastmod>2019-10-18T13:23:24Z</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.3</priority>
+		<lastmod>2020-04-18T15:28:38+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://huseyinsekmenoglu.net/category/cozum</loc>
-		<lastmod>2019-10-15T12:44:33Z</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.3</priority>
+		<lastmod>2020-04-18T15:28:06+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://huseyinsekmenoglu.net/category/egitim</loc>
-		<lastmod>2019-10-15T10:45:31Z</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.3</priority>
+		<lastmod>2020-04-18T15:27:05+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://huseyinsekmenoglu.net/category/guvenlik</loc>
-		<lastmod>2019-10-15T14:43:49Z</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.3</priority>
+		<lastmod>2020-04-18T15:26:13+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://huseyinsekmenoglu.net/category/internet</loc>
-		<lastmod>2019-10-15T14:43:49Z</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.3</priority>
+		<lastmod>2020-04-18T15:27:49+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://huseyinsekmenoglu.net/category/oyun</loc>
-		<lastmod>2019-10-15T10:49:52Z</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.3</priority>
+		<lastmod>2020-04-18T15:27:13+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://huseyinsekmenoglu.net/category/programlama</loc>
-		<lastmod>2019-10-15T12:49:09Z</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.3</priority>
+		<lastmod>2020-04-18T15:28:21+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://huseyinsekmenoglu.net/category/resim</loc>
-		<lastmod>2017-01-29T20:31:17Z</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.3</priority>
+		<lastmod>2013-04-07T10:19:54+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://huseyinsekmenoglu.net/category/site-tanitimi</loc>
-		<lastmod>2019-10-15T10:49:52Z</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.3</priority>
+		<lastmod>2020-04-18T15:27:13+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://huseyinsekmenoglu.net/category/teknoloji</loc>
-		<lastmod>2019-10-15T10:47:33Z</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.3</priority>
+		<lastmod>2020-04-18T15:28:30+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://huseyinsekmenoglu.net/category/video</loc>
-		<lastmod>2017-01-29T20:39:15Z</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.3</priority>
+		<lastmod>2015-03-02T13:33:06+00:00</lastmod>
 	</url>
 </urlset>
