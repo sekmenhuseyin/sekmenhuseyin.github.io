@@ -1,47 +1,47 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//huseyinsekmenoglu.net/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//blog.sekmen.dev/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>https://huseyinsekmenoglu.net/category/benden</loc>
-		<lastmod>2020-04-18T15:28:38+00:00</lastmod>
+		<loc>https://blog.sekmen.dev/category/benden</loc>
+		<lastmod>2021-03-09T12:36:21+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://huseyinsekmenoglu.net/category/cozum</loc>
-		<lastmod>2020-04-18T15:28:06+00:00</lastmod>
+		<loc>https://blog.sekmen.dev/category/cozum</loc>
+		<lastmod>2020-05-30T11:14:52+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://huseyinsekmenoglu.net/category/egitim</loc>
-		<lastmod>2020-04-18T15:27:05+00:00</lastmod>
+		<loc>https://blog.sekmen.dev/category/egitim</loc>
+		<lastmod>2021-02-23T15:50:36+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://huseyinsekmenoglu.net/category/guvenlik</loc>
-		<lastmod>2020-04-18T15:26:13+00:00</lastmod>
+		<loc>https://blog.sekmen.dev/category/guvenlik</loc>
+		<lastmod>2021-02-23T15:50:36+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://huseyinsekmenoglu.net/category/internet</loc>
-		<lastmod>2020-04-18T15:27:49+00:00</lastmod>
+		<loc>https://blog.sekmen.dev/category/internet</loc>
+		<lastmod>2021-02-23T15:50:36+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://huseyinsekmenoglu.net/category/oyun</loc>
-		<lastmod>2020-04-18T15:27:13+00:00</lastmod>
+		<loc>https://blog.sekmen.dev/category/oyun</loc>
+		<lastmod>2020-05-30T10:38:36+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://huseyinsekmenoglu.net/category/programlama</loc>
-		<lastmod>2020-04-18T15:28:21+00:00</lastmod>
+		<loc>https://blog.sekmen.dev/category/programlama</loc>
+		<lastmod>2021-03-09T12:53:25+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://huseyinsekmenoglu.net/category/resim</loc>
-		<lastmod>2013-04-07T10:19:54+00:00</lastmod>
+		<loc>https://blog.sekmen.dev/category/resim</loc>
+		<lastmod>2020-05-30T11:11:32+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://huseyinsekmenoglu.net/category/site-tanitimi</loc>
-		<lastmod>2020-04-18T15:27:13+00:00</lastmod>
+		<loc>https://blog.sekmen.dev/category/site-tanitimi</loc>
+		<lastmod>2021-01-11T15:05:39+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://huseyinsekmenoglu.net/category/teknoloji</loc>
-		<lastmod>2020-04-18T15:28:30+00:00</lastmod>
+		<loc>https://blog.sekmen.dev/category/teknoloji</loc>
+		<lastmod>2020-05-30T11:15:48+00:00</lastmod>
 	</url>
 	<url>
-		<loc>https://huseyinsekmenoglu.net/category/video</loc>
-		<lastmod>2015-03-02T13:33:06+00:00</lastmod>
+		<loc>https://blog.sekmen.dev/category/video</loc>
+		<lastmod>2020-05-26T12:01:45+00:00</lastmod>
 	</url>
 </urlset>
