@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//huseyinsekmenoglu.net/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://huseyinsekmenoglu.net/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://huseyinsekmenoglu.net/</loc>
-		<lastmod>2021-09-29T07:19:43+00:00</lastmod>
+		<lastmod>2022-03-10T15:26:34+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://huseyinsekmenoglu.net/2012/bu-nasil-hakaret-boyle.html</loc>
@@ -29,11 +29,9 @@
 		<lastmod>2020-05-26T10:05:43+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/nokia-e51.jpg</image:loc>
-			<image:title><![CDATA[nokia-e51]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/nokia-e51.jpg</image:loc>
-			<image:title><![CDATA[nokia-e51]]></image:title>
 		</image:image>
 	</url>
 	<url>
@@ -41,11 +39,9 @@
 		<lastmod>2020-05-26T10:06:43+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/programlama.jpg</image:loc>
-			<image:title><![CDATA[programlama]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/programlama.jpg</image:loc>
-			<image:title><![CDATA[programlama]]></image:title>
 		</image:image>
 	</url>
 	<url>
@@ -53,11 +49,9 @@
 		<lastmod>2020-05-26T10:07:43+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/prensip.gif</image:loc>
-			<image:title><![CDATA[prensip]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/prensip.gif</image:loc>
-			<image:title><![CDATA[prensip]]></image:title>
 		</image:image>
 	</url>
 	<url>
@@ -65,13 +59,9 @@
 		<lastmod>2020-05-26T10:16:01+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/mac-isp.jpg</image:loc>
-			<image:title><![CDATA[mackosova.com ve ispkosova.com sitelerinden gelen bilgiler]]></image:title>
-			<image:caption><![CDATA[mackosova.com ve ispkosova.com sitelerinden gelen bilgiler]]></image:caption>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/mac-isp.jpg</image:loc>
-			<image:title><![CDATA[mackosova.com ve ispkosova.com sitelerinden gelen bilgiler]]></image:title>
-			<image:caption><![CDATA[mackosova.com ve ispkosova.com sitelerinden gelen bilgiler]]></image:caption>
 		</image:image>
 	</url>
 	<url>
@@ -79,11 +69,9 @@
 		<lastmod>2020-05-26T10:17:00+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/virtual-villlagers.jpg</image:loc>
-			<image:title><![CDATA[virtual-villlagers]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/virtual-villlagers.jpg</image:loc>
-			<image:title><![CDATA[virtual-villlagers]]></image:title>
 		</image:image>
 	</url>
 	<url>
@@ -91,11 +79,9 @@
 		<lastmod>2020-05-26T11:43:23+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/Ad-Settings.png</image:loc>
-			<image:title><![CDATA[Ad-Settings]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/Ad-Settings.png</image:loc>
-			<image:title><![CDATA[Ad-Settings]]></image:title>
 		</image:image>
 	</url>
 	<url>
@@ -103,11 +89,9 @@
 		<lastmod>2020-05-26T11:43:58+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/prensip.gif</image:loc>
-			<image:title><![CDATA[prensip]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/prensip.gif</image:loc>
-			<image:title><![CDATA[prensip]]></image:title>
 		</image:image>
 	</url>
 	<url>
@@ -115,11 +99,9 @@
 		<lastmod>2020-05-26T11:52:16+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/no-cloud.jpg</image:loc>
-			<image:title><![CDATA[no-cloud]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/no-cloud.jpg</image:loc>
-			<image:title><![CDATA[no-cloud]]></image:title>
 		</image:image>
 	</url>
 	<url>
@@ -127,13 +109,9 @@
 		<lastmod>2020-05-26T11:52:28+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/ashamed.png</image:loc>
-			<image:title><![CDATA[Ashamed]]></image:title>
-			<image:caption><![CDATA[Ashamed]]></image:caption>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/ashamed.png</image:loc>
-			<image:title><![CDATA[Ashamed]]></image:title>
-			<image:caption><![CDATA[Ashamed]]></image:caption>
 		</image:image>
 	</url>
 	<url>
@@ -141,11 +119,9 @@
 		<lastmod>2020-05-26T11:53:45+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/git-branch.jpg</image:loc>
-			<image:title><![CDATA[git-branch]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/git-branch.jpg</image:loc>
-			<image:title><![CDATA[git-branch]]></image:title>
 		</image:image>
 	</url>
 	<url>
@@ -153,11 +129,9 @@
 		<lastmod>2020-05-26T11:54:03+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/sql-server.jpg</image:loc>
-			<image:title><![CDATA[sql-server]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/sql-server.jpg</image:loc>
-			<image:title><![CDATA[sql-server]]></image:title>
 		</image:image>
 	</url>
 	<url>
@@ -165,11 +139,9 @@
 		<lastmod>2020-05-26T11:54:16+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/success-is-a-iceberg.jpg</image:loc>
-			<image:title><![CDATA[success-is-a-iceberg]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/success-is-a-iceberg.jpg</image:loc>
-			<image:title><![CDATA[success-is-a-iceberg]]></image:title>
 		</image:image>
 	</url>
 	<url>
@@ -177,11 +149,9 @@
 		<lastmod>2020-05-26T11:54:31+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/model-view-controller.jpg</image:loc>
-			<image:title><![CDATA[model-view-controller]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/model-view-controller.jpg</image:loc>
-			<image:title><![CDATA[model-view-controller]]></image:title>
 		</image:image>
 	</url>
 	<url>
@@ -189,11 +159,9 @@
 		<lastmod>2020-05-26T11:54:45+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/learn-powershell.jpg</image:loc>
-			<image:title><![CDATA[learn-powershell]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/learn-powershell.jpg</image:loc>
-			<image:title><![CDATA[learn-powershell]]></image:title>
 		</image:image>
 	</url>
 	<url>
@@ -201,11 +169,9 @@
 		<lastmod>2020-05-26T11:55:03+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/pre-build-bat.jpg</image:loc>
-			<image:title><![CDATA[pre-build-bat]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/pre-build-bat.jpg</image:loc>
-			<image:title><![CDATA[pre-build-bat]]></image:title>
 		</image:image>
 	</url>
 	<url>
@@ -213,11 +179,9 @@
 		<lastmod>2020-05-26T11:55:16+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/Todoist.jpg</image:loc>
-			<image:title><![CDATA[Todoist]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/Todoist.jpg</image:loc>
-			<image:title><![CDATA[Todoist]]></image:title>
 		</image:image>
 	</url>
 	<url>
@@ -225,11 +189,9 @@
 		<lastmod>2020-05-26T11:55:31+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/Times-up.jpg</image:loc>
-			<image:title><![CDATA[Times-up]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/Times-up.jpg</image:loc>
-			<image:title><![CDATA[Times-up]]></image:title>
 		</image:image>
 	</url>
 	<url>
@@ -237,11 +199,9 @@
 		<lastmod>2020-05-26T11:55:48+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/zaman-kontrol.jpg</image:loc>
-			<image:title><![CDATA[zaman-kontrol]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/zaman-kontrol.jpg</image:loc>
-			<image:title><![CDATA[zaman-kontrol]]></image:title>
 		</image:image>
 	</url>
 	<url>
@@ -249,11 +209,9 @@
 		<lastmod>2020-05-26T11:56:03+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/html.jpg</image:loc>
-			<image:title><![CDATA[html]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/html.jpg</image:loc>
-			<image:title><![CDATA[html]]></image:title>
 		</image:image>
 	</url>
 	<url>
@@ -261,11 +219,9 @@
 		<lastmod>2020-05-26T11:57:02+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/Programmers.jpg</image:loc>
-			<image:title><![CDATA[Programmers]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/Programmers.jpg</image:loc>
-			<image:title><![CDATA[Programmers]]></image:title>
 		</image:image>
 	</url>
 	<url>
@@ -273,11 +229,9 @@
 		<lastmod>2020-05-26T11:57:22+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/Android-Virus.jpg</image:loc>
-			<image:title><![CDATA[Android-Virus]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/Android-Virus.jpg</image:loc>
-			<image:title><![CDATA[Android-Virus]]></image:title>
 		</image:image>
 	</url>
 	<url>
@@ -285,11 +239,9 @@
 		<lastmod>2020-05-26T11:57:41+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/WordPress-Admin-Area.jpg</image:loc>
-			<image:title><![CDATA[WordPress-Admin-Area]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/WordPress-Admin-Area.jpg</image:loc>
-			<image:title><![CDATA[WordPress-Admin-Area]]></image:title>
 		</image:image>
 	</url>
 	<url>
@@ -297,11 +249,9 @@
 		<lastmod>2020-05-26T11:58:06+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/https-share-top-500k-sites.jpg</image:loc>
-			<image:title><![CDATA[https-share-top-500k-sites]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/https-share-top-500k-sites.jpg</image:loc>
-			<image:title><![CDATA[https-share-top-500k-sites]]></image:title>
 		</image:image>
 	</url>
 	<url>
@@ -309,11 +259,9 @@
 		<lastmod>2020-05-26T11:58:33+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/github-pages.jpg</image:loc>
-			<image:title><![CDATA[github-pages]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/github-pages.jpg</image:loc>
-			<image:title><![CDATA[github-pages]]></image:title>
 		</image:image>
 	</url>
 	<url>
@@ -321,11 +269,9 @@
 		<lastmod>2020-05-26T11:58:51+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/samsung-notifications.jpg</image:loc>
-			<image:title><![CDATA[samsung-notifications]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/samsung-notifications.jpg</image:loc>
-			<image:title><![CDATA[samsung-notifications]]></image:title>
 		</image:image>
 	</url>
 	<url>
@@ -333,11 +279,9 @@
 		<lastmod>2020-05-26T12:00:44+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/Universal-Declaration-of-Human-Rights.jpg</image:loc>
-			<image:title><![CDATA[Universal-Declaration-of-Human-Rights]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/Universal-Declaration-of-Human-Rights.jpg</image:loc>
-			<image:title><![CDATA[Universal-Declaration-of-Human-Rights]]></image:title>
 		</image:image>
 	</url>
 	<url>
@@ -345,11 +289,9 @@
 		<lastmod>2020-05-26T12:01:09+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/basit_boxmodel.gif</image:loc>
-			<image:title><![CDATA[basit_boxmodel]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/basit_boxmodel.gif</image:loc>
-			<image:title><![CDATA[basit_boxmodel]]></image:title>
 		</image:image>
 	</url>
 	<url>
@@ -357,11 +299,9 @@
 		<lastmod>2020-05-26T12:01:28+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/brent-ozar.jpg</image:loc>
-			<image:title><![CDATA[brent-ozar]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/brent-ozar.jpg</image:loc>
-			<image:title><![CDATA[brent-ozar]]></image:title>
 		</image:image>
 	</url>
 	<url>
@@ -369,11 +309,9 @@
 		<lastmod>2020-05-26T12:01:45+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/Video-Flip-and-Rotate-2.jpg</image:loc>
-			<image:title><![CDATA[Video-Flip-and-Rotate-2]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/Video-Flip-and-Rotate-2.jpg</image:loc>
-			<image:title><![CDATA[Video-Flip-and-Rotate-2]]></image:title>
 		</image:image>
 	</url>
 	<url>
@@ -381,11 +319,9 @@
 		<lastmod>2020-05-26T12:02:33+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/ConverterAviToMP4.jpg</image:loc>
-			<image:title><![CDATA[ConverterAviToMP4]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/ConverterAviToMP4.jpg</image:loc>
-			<image:title><![CDATA[ConverterAviToMP4]]></image:title>
 		</image:image>
 	</url>
 	<url>
@@ -393,11 +329,9 @@
 		<lastmod>2020-05-26T12:04:02+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/sql-server.jpg</image:loc>
-			<image:title><![CDATA[sql-server]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/sql-server.jpg</image:loc>
-			<image:title><![CDATA[sql-server]]></image:title>
 		</image:image>
 	</url>
 	<url>
@@ -405,11 +339,9 @@
 		<lastmod>2020-05-30T09:53:57+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/Wordpress-3-indiryukle-ve-kur.jpg</image:loc>
-			<image:title><![CDATA[Wordpress-3-indiryukle-ve-kur]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/Wordpress-3-indiryukle-ve-kur.jpg</image:loc>
-			<image:title><![CDATA[Wordpress-3-indiryukle-ve-kur]]></image:title>
 		</image:image>
 	</url>
 	<url>
@@ -417,11 +349,9 @@
 		<lastmod>2020-05-30T09:59:23+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/active-server-pages-asp.png</image:loc>
-			<image:title><![CDATA[active-server-pages-asp]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/active-server-pages-asp.png</image:loc>
-			<image:title><![CDATA[active-server-pages-asp]]></image:title>
 		</image:image>
 	</url>
 	<url>
@@ -429,11 +359,9 @@
 		<lastmod>2020-05-30T09:59:48+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/MSSQL-Backup-Folder.jpg</image:loc>
-			<image:title><![CDATA[MSSQL-Backup-Folder]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/MSSQL-Backup-Folder.jpg</image:loc>
-			<image:title><![CDATA[MSSQL-Backup-Folder]]></image:title>
 		</image:image>
 	</url>
 	<url>
@@ -441,11 +369,9 @@
 		<lastmod>2020-05-30T10:05:35+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/Internet-Information-Services-IIS.jpg</image:loc>
-			<image:title><![CDATA[Internet Information Services IIS]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/Internet-Information-Services-IIS.jpg</image:loc>
-			<image:title><![CDATA[Internet Information Services IIS]]></image:title>
 		</image:image>
 	</url>
 	<url>
@@ -453,11 +379,9 @@
 		<lastmod>2020-05-30T10:05:54+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/sql-server-2012-facets.jpg</image:loc>
-			<image:title><![CDATA[sql-server-2012-facets]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/sql-server-2012-facets.jpg</image:loc>
-			<image:title><![CDATA[sql-server-2012-facets]]></image:title>
 		</image:image>
 	</url>
 	<url>
@@ -465,13 +389,9 @@
 		<lastmod>2020-05-30T10:08:04+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/balikesir.jpg</image:loc>
-			<image:title><![CDATA[Balıkesir]]></image:title>
-			<image:caption><![CDATA[Balıkesir]]></image:caption>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/balikesir.jpg</image:loc>
-			<image:title><![CDATA[Balıkesir]]></image:title>
-			<image:caption><![CDATA[Balıkesir]]></image:caption>
 		</image:image>
 	</url>
 	<url>
@@ -479,11 +399,9 @@
 		<lastmod>2020-05-30T10:09:24+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/active-server-pages-asp.png</image:loc>
-			<image:title><![CDATA[active-server-pages-asp]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/active-server-pages-asp.png</image:loc>
-			<image:title><![CDATA[active-server-pages-asp]]></image:title>
 		</image:image>
 	</url>
 	<url>
@@ -491,13 +409,9 @@
 		<lastmod>2020-05-30T10:10:31+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/ninite.png</image:loc>
-			<image:title><![CDATA[ninite]]></image:title>
-			<image:caption><![CDATA[ninite]]></image:caption>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/ninite.png</image:loc>
-			<image:title><![CDATA[ninite]]></image:title>
-			<image:caption><![CDATA[ninite]]></image:caption>
 		</image:image>
 	</url>
 	<url>
@@ -505,11 +419,9 @@
 		<lastmod>2020-05-30T10:10:50+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/html-css-coding-web-design.jpg</image:loc>
-			<image:title><![CDATA[Html code]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/html-css-coding-web-design.jpg</image:loc>
-			<image:title><![CDATA[Html code]]></image:title>
 		</image:image>
 	</url>
 	<url>
@@ -517,13 +429,9 @@
 		<lastmod>2020-05-30T10:11:02+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/msi-mega-notebook-s260.jpg</image:loc>
-			<image:title><![CDATA[MSI Mega Notebook S260]]></image:title>
-			<image:caption><![CDATA[MSI Mega Notebook S260]]></image:caption>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/msi-mega-notebook-s260.jpg</image:loc>
-			<image:title><![CDATA[MSI Mega Notebook S260]]></image:title>
-			<image:caption><![CDATA[MSI Mega Notebook S260]]></image:caption>
 		</image:image>
 	</url>
 	<url>
@@ -531,11 +439,9 @@
 		<lastmod>2020-05-30T10:12:18+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/gmail-new-message.jpg</image:loc>
-			<image:title><![CDATA[gmail-new-message]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/gmail-new-message.jpg</image:loc>
-			<image:title><![CDATA[gmail-new-message]]></image:title>
 		</image:image>
 	</url>
 	<url>
@@ -543,11 +449,9 @@
 		<lastmod>2020-05-30T10:13:57+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/php-web-application-development.jpg</image:loc>
-			<image:title><![CDATA[php-web-application-development]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/php-web-application-development.jpg</image:loc>
-			<image:title><![CDATA[php-web-application-development]]></image:title>
 		</image:image>
 	</url>
 	<url>
@@ -555,11 +459,9 @@
 		<lastmod>2020-05-30T10:14:26+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/Ozgecmis.jpg</image:loc>
-			<image:title><![CDATA[Ozgecmis]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/Ozgecmis.jpg</image:loc>
-			<image:title><![CDATA[Ozgecmis]]></image:title>
 		</image:image>
 	</url>
 	<url>
@@ -567,11 +469,9 @@
 		<lastmod>2020-05-30T10:15:28+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/wordpress-multisite.jpg</image:loc>
-			<image:title><![CDATA[wordpress-multisite]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/wordpress-multisite.jpg</image:loc>
-			<image:title><![CDATA[wordpress-multisite]]></image:title>
 		</image:image>
 	</url>
 	<url>
@@ -579,11 +479,9 @@
 		<lastmod>2020-05-30T10:16:27+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/code-of-conduct-a.jpg</image:loc>
-			<image:title><![CDATA[code-of-conduct-a]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/code-of-conduct-a.jpg</image:loc>
-			<image:title><![CDATA[code-of-conduct-a]]></image:title>
 		</image:image>
 	</url>
 	<url>
@@ -591,11 +489,9 @@
 		<lastmod>2020-05-30T10:16:59+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/video-album-table.jpg</image:loc>
-			<image:title><![CDATA[video-album-table]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/video-album-table.jpg</image:loc>
-			<image:title><![CDATA[video-album-table]]></image:title>
 		</image:image>
 	</url>
 	<url>
@@ -603,13 +499,9 @@
 		<lastmod>2020-05-30T10:17:13+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/video-album-2-file-list.jpg</image:loc>
-			<image:title><![CDATA[Siteye Video Albüm Ekleme – dosya sırası]]></image:title>
-			<image:caption><![CDATA[Siteye Video Albüm Ekleme – dosya sırası]]></image:caption>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/video-album-2-file-list.jpg</image:loc>
-			<image:title><![CDATA[Siteye Video Albüm Ekleme – dosya sırası]]></image:title>
-			<image:caption><![CDATA[Siteye Video Albüm Ekleme – dosya sırası]]></image:caption>
 		</image:image>
 	</url>
 	<url>
@@ -617,11 +509,9 @@
 		<lastmod>2020-05-30T10:17:33+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/active-server-pages-asp.png</image:loc>
-			<image:title><![CDATA[active-server-pages-asp]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/active-server-pages-asp.png</image:loc>
-			<image:title><![CDATA[active-server-pages-asp]]></image:title>
 		</image:image>
 	</url>
 	<url>
@@ -629,11 +519,9 @@
 		<lastmod>2020-05-30T10:24:53+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/Mark-Zuckerberg.jpg</image:loc>
-			<image:title><![CDATA[Mark-Zuckerberg]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/Mark-Zuckerberg.jpg</image:loc>
-			<image:title><![CDATA[Mark-Zuckerberg]]></image:title>
 		</image:image>
 	</url>
 	<url>
@@ -641,11 +529,9 @@
 		<lastmod>2020-05-30T10:26:45+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/github-logo.jpg</image:loc>
-			<image:title><![CDATA[github-logo]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/github-logo.jpg</image:loc>
-			<image:title><![CDATA[github-logo]]></image:title>
 		</image:image>
 	</url>
 	<url>
@@ -653,11 +539,9 @@
 		<lastmod>2020-05-30T10:28:17+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/zaman-kontrol.jpg</image:loc>
-			<image:title><![CDATA[zaman-kontrol]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/zaman-kontrol.jpg</image:loc>
-			<image:title><![CDATA[zaman-kontrol]]></image:title>
 		</image:image>
 	</url>
 	<url>
@@ -665,11 +549,9 @@
 		<lastmod>2020-05-30T10:36:56+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/MysticMicrosoft.jpg</image:loc>
-			<image:title><![CDATA[MysticMicrosoft]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/MysticMicrosoft.jpg</image:loc>
-			<image:title><![CDATA[MysticMicrosoft]]></image:title>
 		</image:image>
 	</url>
 	<url>
@@ -677,11 +559,9 @@
 		<lastmod>2020-05-30T10:38:36+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/princeofpersia.jpg</image:loc>
-			<image:title><![CDATA[princeofpersia]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/princeofpersia.jpg</image:loc>
-			<image:title><![CDATA[princeofpersia]]></image:title>
 		</image:image>
 	</url>
 	<url>
@@ -689,11 +569,9 @@
 		<lastmod>2020-05-30T10:41:31+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/pc_virus.jpg</image:loc>
-			<image:title><![CDATA[pc_virus]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/pc_virus.jpg</image:loc>
-			<image:title><![CDATA[pc_virus]]></image:title>
 		</image:image>
 	</url>
 	<url>
@@ -701,11 +579,9 @@
 		<lastmod>2020-05-30T10:43:25+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/android.jpg</image:loc>
-			<image:title><![CDATA[android]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/android.jpg</image:loc>
-			<image:title><![CDATA[android]]></image:title>
 		</image:image>
 	</url>
 	<url>
@@ -713,11 +589,9 @@
 		<lastmod>2020-05-30T10:51:53+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/AcikAkademiBasvuruIlani.jpg</image:loc>
-			<image:title><![CDATA[AcikAkademiBasvuruIlani]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/AcikAkademiBasvuruIlani.jpg</image:loc>
-			<image:title><![CDATA[AcikAkademiBasvuruIlani]]></image:title>
 		</image:image>
 	</url>
 	<url>
@@ -725,11 +599,9 @@
 		<lastmod>2020-05-30T10:52:51+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/sql-server.jpg</image:loc>
-			<image:title><![CDATA[sql-server]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/sql-server.jpg</image:loc>
-			<image:title><![CDATA[sql-server]]></image:title>
 		</image:image>
 	</url>
 	<url>
@@ -737,11 +609,9 @@
 		<lastmod>2020-05-30T10:53:21+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/Gulistan-Okul-Otomasyon.jpg</image:loc>
-			<image:title><![CDATA[Gulistan-Okul-Otomasyon]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/Gulistan-Okul-Otomasyon.jpg</image:loc>
-			<image:title><![CDATA[Gulistan-Okul-Otomasyon]]></image:title>
 		</image:image>
 	</url>
 	<url>
@@ -749,11 +619,9 @@
 		<lastmod>2020-05-30T10:53:59+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/Ozgecmis.jpg</image:loc>
-			<image:title><![CDATA[Ozgecmis]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/Ozgecmis.jpg</image:loc>
-			<image:title><![CDATA[Ozgecmis]]></image:title>
 		</image:image>
 	</url>
 	<url>
@@ -761,11 +629,9 @@
 		<lastmod>2020-05-30T10:57:13+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/php-web-application-development.jpg</image:loc>
-			<image:title><![CDATA[php-web-application-development]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/php-web-application-development.jpg</image:loc>
-			<image:title><![CDATA[php-web-application-development]]></image:title>
 		</image:image>
 	</url>
 	<url>
@@ -773,11 +639,9 @@
 		<lastmod>2020-05-30T11:03:43+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/wordpress-multisite.jpg</image:loc>
-			<image:title><![CDATA[wordpress-multisite]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/wordpress-multisite.jpg</image:loc>
-			<image:title><![CDATA[wordpress-multisite]]></image:title>
 		</image:image>
 	</url>
 	<url>
@@ -785,11 +649,9 @@
 		<lastmod>2020-05-30T11:04:56+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/MySQL-Backup-Folder.jpg</image:loc>
-			<image:title><![CDATA[MySQL-Backup-Folder]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/MySQL-Backup-Folder.jpg</image:loc>
-			<image:title><![CDATA[MySQL-Backup-Folder]]></image:title>
 		</image:image>
 	</url>
 	<url>
@@ -797,11 +659,9 @@
 		<lastmod>2020-05-30T11:05:26+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/GOO-idari-isler-Sertifika-Basimi.jpg</image:loc>
-			<image:title><![CDATA[GOO-idari-isler-Sertifika-Basimi]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/GOO-idari-isler-Sertifika-Basimi.jpg</image:loc>
-			<image:title><![CDATA[GOO-idari-isler-Sertifika-Basimi]]></image:title>
 		</image:image>
 	</url>
 	<url>
@@ -809,11 +669,9 @@
 		<lastmod>2020-05-30T11:06:18+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/wordpress-arsiv-sayfasi.jpg</image:loc>
-			<image:title><![CDATA[wordpress-arsiv-sayfasi]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/wordpress-arsiv-sayfasi.jpg</image:loc>
-			<image:title><![CDATA[wordpress-arsiv-sayfasi]]></image:title>
 		</image:image>
 	</url>
 	<url>
@@ -821,11 +679,9 @@
 		<lastmod>2020-05-30T11:06:43+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/MySQL-Workbench.jpg</image:loc>
-			<image:title><![CDATA[MySQL-Workbench]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/MySQL-Workbench.jpg</image:loc>
-			<image:title><![CDATA[MySQL-Workbench]]></image:title>
 		</image:image>
 	</url>
 	<url>
@@ -833,11 +689,9 @@
 		<lastmod>2020-05-30T11:07:23+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/active-server-pages-asp.png</image:loc>
-			<image:title><![CDATA[active-server-pages-asp]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/active-server-pages-asp.png</image:loc>
-			<image:title><![CDATA[active-server-pages-asp]]></image:title>
 		</image:image>
 	</url>
 	<url>
@@ -845,11 +699,9 @@
 		<lastmod>2020-05-30T11:07:52+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/arsiv-sayfasi.png</image:loc>
-			<image:title><![CDATA[arsiv-sayfasi]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/arsiv-sayfasi.png</image:loc>
-			<image:title><![CDATA[arsiv-sayfasi]]></image:title>
 		</image:image>
 	</url>
 	<url>
@@ -857,11 +709,9 @@
 		<lastmod>2020-05-30T11:09:04+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/Wordpress-Yonetim-Paneli.jpg</image:loc>
-			<image:title><![CDATA[Wordpress-Yonetim-Paneli]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/Wordpress-Yonetim-Paneli.jpg</image:loc>
-			<image:title><![CDATA[Wordpress-Yonetim-Paneli]]></image:title>
 		</image:image>
 	</url>
 	<url>
@@ -869,11 +719,9 @@
 		<lastmod>2020-05-30T11:10:30+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/Kitap-efektli-animasyon.jpg</image:loc>
-			<image:title><![CDATA[Kitap-efektli-animasyon]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/Kitap-efektli-animasyon.jpg</image:loc>
-			<image:title><![CDATA[Kitap-efektli-animasyon]]></image:title>
 		</image:image>
 	</url>
 	<url>
@@ -881,11 +729,9 @@
 		<lastmod>2020-05-30T11:10:52+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/Bulk-Rename-Utility.jpg</image:loc>
-			<image:title><![CDATA[Bulk-Rename-Utility]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/Bulk-Rename-Utility.jpg</image:loc>
-			<image:title><![CDATA[Bulk-Rename-Utility]]></image:title>
 		</image:image>
 	</url>
 	<url>
@@ -893,11 +739,9 @@
 		<lastmod>2020-05-30T11:11:32+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/mehmet-akif-koleji-mozaik.jpg</image:loc>
-			<image:title><![CDATA[mehmet-akif-koleji-mozaik]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/mehmet-akif-koleji-mozaik.jpg</image:loc>
-			<image:title><![CDATA[mehmet-akif-koleji-mozaik]]></image:title>
 		</image:image>
 	</url>
 	<url>
@@ -905,11 +749,9 @@
 		<lastmod>2020-05-30T11:12:04+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/agora-movie.jpg</image:loc>
-			<image:title><![CDATA[agora-movie]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/agora-movie.jpg</image:loc>
-			<image:title><![CDATA[agora-movie]]></image:title>
 		</image:image>
 	</url>
 	<url>
@@ -917,11 +759,9 @@
 		<lastmod>2020-05-30T11:14:52+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/BING.jpg</image:loc>
-			<image:title><![CDATA[BING]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/BING.jpg</image:loc>
-			<image:title><![CDATA[BING]]></image:title>
 		</image:image>
 	</url>
 	<url>
@@ -929,11 +769,9 @@
 		<lastmod>2020-05-30T11:15:25+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/wall_e_poster_disney.jpg</image:loc>
-			<image:title><![CDATA[wall_e_poster_disney]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/wall_e_poster_disney.jpg</image:loc>
-			<image:title><![CDATA[wall_e_poster_disney]]></image:title>
 		</image:image>
 	</url>
 	<url>
@@ -941,11 +779,9 @@
 		<lastmod>2020-05-30T11:15:48+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/hp-compaq-dc7100-ssf.gif</image:loc>
-			<image:title><![CDATA[hp-compaq-dc7100-ssf]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/hp-compaq-dc7100-ssf.gif</image:loc>
-			<image:title><![CDATA[hp-compaq-dc7100-ssf]]></image:title>
 		</image:image>
 	</url>
 	<url>
@@ -953,11 +789,9 @@
 		<lastmod>2020-05-30T11:16:41+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/isp-design-new.jpg</image:loc>
-			<image:title><![CDATA[isp-design-new]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/isp-design-new.jpg</image:loc>
-			<image:title><![CDATA[isp-design-new]]></image:title>
 		</image:image>
 	</url>
 	<url>
@@ -965,11 +799,9 @@
 		<lastmod>2020-05-30T11:21:23+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/voip.gif</image:loc>
-			<image:title><![CDATA[voip]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/voip.gif</image:loc>
-			<image:title><![CDATA[voip]]></image:title>
 		</image:image>
 	</url>
 	<url>
@@ -977,23 +809,9 @@
 		<lastmod>2021-01-11T15:04:48+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/mail-tester.png</image:loc>
-			<image:title><![CDATA[mail-tester]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/mail-tester.png</image:loc>
-			<image:title><![CDATA[mail-tester]]></image:title>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://huseyinsekmenoglu.net/2021/my-2020-year-in-review-from-rescuetime-%f0%9f%98%8e.html</loc>
-		<lastmod>2021-01-11T15:05:39+00:00</lastmod>
-		<image:image>
-			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/rescuetime-2020-1.png</image:loc>
-			<image:title><![CDATA[rescuetime-2020-1]]></image:title>
-		</image:image>
-		<image:image>
-			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/rescuetime-2020-1.png</image:loc>
-			<image:title><![CDATA[rescuetime-2020-1]]></image:title>
 		</image:image>
 	</url>
 	<url>
@@ -1001,11 +819,9 @@
 		<lastmod>2021-02-23T15:50:36+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/net-security.jpg</image:loc>
-			<image:title><![CDATA[net security]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/net-security.jpg</image:loc>
-			<image:title><![CDATA[net security]]></image:title>
 		</image:image>
 	</url>
 	<url>
@@ -1017,13 +833,9 @@
 		<lastmod>2021-03-09T12:36:21+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/logo.jpg</image:loc>
-			<image:title><![CDATA[Hüseyin Sekmenoğlu]]></image:title>
-			<image:caption><![CDATA[Hüseyin Sekmenoğlu]]></image:caption>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/logo.jpg</image:loc>
-			<image:title><![CDATA[Hüseyin Sekmenoğlu]]></image:title>
-			<image:caption><![CDATA[Hüseyin Sekmenoğlu]]></image:caption>
 		</image:image>
 	</url>
 	<url>
@@ -1031,11 +843,9 @@
 		<lastmod>2021-03-09T12:53:25+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/extensions.png</image:loc>
-			<image:title><![CDATA[extensions]]></image:title>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/extensions.png</image:loc>
-			<image:title><![CDATA[extensions]]></image:title>
 		</image:image>
 	</url>
 	<url>
@@ -1043,13 +853,19 @@
 		<lastmod>2021-09-29T07:19:43+00:00</lastmod>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/gdpr.jpg</image:loc>
-			<image:title><![CDATA[Sitenizi Genel Veri Koruma Yönetmeliğine Uygun Hale Getirin]]></image:title>
-			<image:caption><![CDATA[Sitenizi Genel Veri Koruma Yönetmeliğine Uygun Hale Getirin]]></image:caption>
 		</image:image>
 		<image:image>
 			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/gdpr.jpg</image:loc>
-			<image:title><![CDATA[Sitenizi Genel Veri Koruma Yönetmeliğine Uygun Hale Getirin]]></image:title>
-			<image:caption><![CDATA[Sitenizi Genel Veri Koruma Yönetmeliğine Uygun Hale Getirin]]></image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://huseyinsekmenoglu.net/2021/my-2020-year-in-review-from-rescuetime-%f0%9f%98%8e.html</loc>
+		<lastmod>2022-03-10T15:26:34+00:00</lastmod>
+		<image:image>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/rescuetime-2020-1.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://huseyinsekmenoglu.net/wp-content/uploads/rescuetime-2020-1.png</image:loc>
 		</image:image>
 	</url>
 </urlset>

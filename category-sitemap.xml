@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//huseyinsekmenoglu.net/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://huseyinsekmenoglu.net/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://huseyinsekmenoglu.net/category/benden</loc>
-		<lastmod>2021-03-09T12:36:21+00:00</lastmod>
+		<lastmod>2022-03-10T15:26:34+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://huseyinsekmenoglu.net/category/cozum</loc>
@@ -34,7 +34,7 @@
 	</url>
 	<url>
 		<loc>https://huseyinsekmenoglu.net/category/site-tanitimi</loc>
-		<lastmod>2021-01-11T15:05:39+00:00</lastmod>
+		<lastmod>2022-03-10T15:26:34+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://huseyinsekmenoglu.net/category/teknoloji</loc>
